@@ -1,0 +1,39 @@
+/* _content/Motoland/Views/Shared/_Layout.cshtml.rz.scp.css */
+a.navbar-brand[b-ksx7u20dko] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a[b-ksx7u20dko] {
+    color: #0077cc;
+}
+
+.btn-primary[b-ksx7u20dko] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-ksx7u20dko], .nav-pills .show > .nav-link[b-ksx7u20dko] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top[b-ksx7u20dko] {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-ksx7u20dko] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-ksx7u20dko] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-ksx7u20dko] {
+    font-size: 1rem;
+    line-height: inherit;
+}

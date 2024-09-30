@@ -1,0 +1,342 @@
+﻿@model List<Motoland.Models.Car>
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotoLand</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Nowoczesny reset */
+        html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            --header-height: 50px;
+            --footer-height: 50px;
+            font-family: Roboto,arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ustawienie minimalnej wysokości na 100% wysokości widoku */
+            display: flex;
+            flex-direction: column;
+        }
+
+            body::before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url('https://cdn.pixabay.com/animation/2022/08/22/15/52/15-52-25-794_512.gif') no-repeat center center;
+                background-size: cover;
+                z-index: -1;
+                opacity: 0.3;
+            }
+
+        .main {
+            flex: 1; /* Główna treść będzie elastyczna */
+            min-height: calc(100vh - var(--header-height) - var(--footer-height));
+        }
+        .main .container h1{
+                color: #1e88e5;
+            font-family:Roboto;
+            text-align:center;
+            font-weight:700;
+        }
+
+        /* Kontener */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Nagłówek */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            color: #fff;
+            height: var(--header-height);
+        }
+
+        
+
+            .header .motoland a{
+                font-family: 'Merriweather', serif;
+                position: relative;
+                color: White;
+                font-size: 50px;
+                font-weight: normal;
+                padding: 8px 20px 7px 20px;
+                border-top: 4px solid;
+                border-left: 4px solid;
+                display: inline-block;
+                margin: 0;
+                line-height: 1;
+                text-decoration: none;
+            }
+            .header .motoland a:before{
+                    content: "";
+                    position: absolute;
+                    width: 12px;
+                    height: 12px;
+                    top: -12px;
+                    left: -12px;
+                    border: 4px solid white;
+                    box-sizing: border-box;
+            }
+
+        .auth-buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+            .auth-buttons a {
+                color: #fff;
+                font-weight: 500;
+                text-decoration: none;
+                padding: 10px 20px;
+                background-color: transparent;
+                border: 1px solid #fff;
+                border-radius: 6px;
+                transition: all 0.3s ease;
+            }
+
+                .auth-buttons a:hover {
+                    background-color: #fff;
+                    color: #1e88e5;
+                }
+
+        .p_item{
+            color:white;
+            font-size:20px;
+            width:100vh;
+        }
+
+        /* Sekcja filtrów */
+        .filters {
+            background-color: #fff;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .filters h2 {
+                margin-bottom: 20px;
+                font-size: 24px;
+                color: #1e88e5;
+            }
+
+        .filter-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+            .filter-group div {
+                flex: 1;
+                min-width: 220px;
+            }
+
+            .filter-group label {
+                font-weight: 600;
+                margin-bottom: 8px;
+                display: block;
+            }
+
+            .filter-group input,
+            .filter-group select {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                font-size: 16px;
+            }
+
+            .filter-group button {
+                padding: 12px 20px;
+                background-color: #1e88e5;
+                color: #fff;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                font-size: 16px;
+                transition: background-color 0.3s;
+            }
+
+                .filter-group button:hover {
+                    background-color: #1565c0;
+                }
+
+        /* Lista samochodów */
+        .car-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .car-card {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .car-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            }
+
+        .car-image {
+            width: 100%;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .car-details {
+            padding: 20px;
+        }
+
+            .car-details h3 {
+                font-size: 20px;
+                margin-bottom: 10px;
+                color: #333;
+            }
+
+            .car-details p {
+                margin: 5px 0;
+                color: #666;
+            }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1e88e5;
+        }
+
+        /* Stopka */
+        .footer {
+            text-align: center;
+            color: #fff;
+            font-size: 16px;
+            height: var(--footer-height);
+        }
+
+        .search {
+            border: 1px solid white;
+            border-radius: 6px;
+            color: white;
+            background-color: #1e88e5;
+            width: 100px;
+            height: 40px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Nagłówek -->
+    <header class="header">
+        <h1 class="motoland"><a href="">MotoLand</a></h1>
+        <div class="auth-buttons">
+            <a href="/Account/Login">Zaloguj</a>
+            <a href="/Account/Register">Zarejestruj się</a>
+        </div>
+    </header>
+
+    <!-- Główna sekcja -->
+    <main class="main">
+        <div class="container">
+             <h1>Samochody na sprzedaż</h1>
+
+            <!-- Sekcja filtrów -->
+            <section class="filters">
+                <h2>Filtruj wyniki</h2>
+                <form action="/Car/Filter" method="post">
+                    <div class="filter-group">
+                        <div>
+                            <label for="brand">Marka:</label>
+                            <select id="brand" name="brand">
+                                <option value="">Wybierz</option>
+                                <option value="bmw">BMW</option>
+                                <option value="audi">Audi</option>
+                                <option value="mercedes">Mercedes</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="model">Model:</label>
+                            <input type="text" id="model" name="model" placeholder="Wprowadź model">
+                        </div>
+                        <div>
+                            <label for="price-min">Cena minimalna (zł):</label>
+                            <input type="number" id="price-min" name="priceMin" placeholder="Od">
+                        </div>
+                        <div>
+                            <label for="price-max">Cena maksymalna (zł):</label>
+                            <input type="number" id="price-max" name="priceMax" placeholder="Do">
+                        </div>
+                        <div>
+                            <label for="year">Rok produkcji:</label>
+                            <input type="number" id="year" name="year" placeholder="Rok">
+                        </div>
+                        <div>
+                            <label for="carmileage">Przebieg:</label>
+                            <input type="number" id="carmileage" name="car_mileage" placeholder="Przebieg">
+                        </div>
+                        <div>
+                            <label for="engine-capacity">Poj. Silnika:</label>
+                            <input type="number" id="engine-capacity" name="engine_capacity" placeholder="Poj. Silnika">
+                        </div>
+                    </div>
+                    <div>
+                        <button class="search" type="submit">Szukaj</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Lista samochodów -->
+            <section class="car-list">
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var car in Model)
+                    {
+                        <div class="car-card">
+                            <div class="car-image" style="background-image: url('@car.ImageUrl');"></div>
+                            <div class="car-details">
+                                <h3>@car.Brand @car.Model</h3>
+                                <p>Rok: @car.Year</p>
+                                <p class="price">Cena: @car.Price zł</p>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p class="p_item">Nie znaleziono samochodów spełniających podane kryteria.</p>
+                }
+            </section>
+        </div>
+    </main>
+
+    <!-- Stopka -->
+    <footer class="footer">
+        © 2024 AutoSprzedaż. Wszelkie prawa zastrzeżone.
+    </footer>
+
+</body>
+</html>
