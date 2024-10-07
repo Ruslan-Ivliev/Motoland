@@ -1,6 +1,11 @@
 ﻿using Motoland.Models;
+using Microsoft.EntityFrameworkCore;
+using Motoland.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); // Dla MySQL użyj .UseMySql()
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -11,6 +16,8 @@ builder.Services.AddScoped<IUserService, UserService>(); // Możesz też użyć 
 
 // Dodanie kontrolerów z widokami (MVC)
 builder.Services.AddControllersWithViews();
+
+
 
 
 var app = builder.Build();
@@ -36,9 +43,16 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Account}/{action=Login}/{id?}");
+
+app.MapControllerRoute(
+    name: "Home",
+    pattern: "{controller=Home}/{action=User_Login}/{id?}");
+
 
 app.MapControllerRoute(
     name: "account",

@@ -1,52 +1,68 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Motoland.Models;
+using Motoland.Services;
 
-public class AccountController : Controller
+namespace Motoland.Controllers
 {
-    private readonly IUserService _userService;
-
-    public AccountController(IUserService userService)
+    public class AccountController : Controller
     {
-        _userService = userService;
-    }
+        private readonly IUserService _userService;
 
-    // GET: Account/Login
-    public ActionResult Login()
-    {
-        return View();
-    }
-
-    // POST: Account/Login
-    [HttpPost]
-    public ActionResult Login(string email, string password)
-    {
-        if (_userService.ValidateUser(email, password))
+        public AccountController(IUserService userService)
         {
-            return RedirectToAction("Index", "Home");
+            _userService = userService;
         }
 
-        ViewBag.Error = "Nieprawidłowy email lub hasło";
-        return View();
-    }
-
-    [HttpGet]
-    public IActionResult Register()
-    {
-        return View();
-    }
-
-    // POST: Account/Register
-    [HttpPost]
-    public IActionResult Register(User user)
-    {
-        if (ModelState.IsValid)
+        // GET: Account/Login
+        public IActionResult Login()
         {
-            // Tu możesz dodać logikę do zapisu użytkownika w bazie danych
-            TempData["SuccessMessage"] = "Registration successful!";
-            return RedirectToAction("Login"); // Przekierowanie do strony logowania po rejestracji
+            return View();
         }
 
-        return View(user); // W przypadku błędów walidacji zwróć formularz z błędami
-    }
+        // POST: Account/Login
+        [HttpPost]
+        public IActionResult Login(string email, string password)
+        {
+            if (_userService.ValidateUser(email, password))
+            {
+                // W prawdziwej aplikacji dodaj logikę autoryzacji użytkownika (np. tworzenie sesji, tokenów)
+                return RedirectToAction("User_Login", "Home");
+            }
 
+            ViewBag.Error = "Nieprawidłowy email lub hasło";
+            return View();
+        }
+
+        // GET: Account/Register
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        // POST: Account/Register
+        [HttpPost]
+        public IActionResult Register(User user, string confirmPassword)
+        {
+            if (user.Password != confirmPassword)
+            {
+                ViewBag.Error = "Hasła nie są zgodne.";
+                return View();
+            }
+
+            if (_userService.UserExists(user.Email))
+            {
+                ViewBag.Error = "Użytkownik z tym adresem email już istnieje.";
+                return View();
+            }
+
+            if (ModelState.IsValid)
+            {
+                // W prawdziwej aplikacji hasło powinno być haszowane przed zapisaniem
+                _userService.RegisterUser(user);
+                return RedirectToAction("Login");
+            }
+
+            return View(user);
+        }
+    }
 }

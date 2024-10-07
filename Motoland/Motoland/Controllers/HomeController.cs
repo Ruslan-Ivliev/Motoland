@@ -13,6 +13,14 @@ namespace Motoland.Controllers
             _logger = logger;
         }
 
+        public IActionResult Login()
+        {
+            return View();
+        }
+        public IActionResult User_Login()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
