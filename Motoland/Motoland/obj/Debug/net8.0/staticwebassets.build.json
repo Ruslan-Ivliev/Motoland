@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cwLidyy8X4LSDN3MTFsvrgpj8YiLZergTZtzS0ulUkM=",
+  "Hash": "85ehL1MR5XohMVdV/G2vSbR5W6H67eUo3OqZMeJfJeg=",
   "Source": "Motoland",
   "BasePath": "_content/Motoland",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Motoland\\wwwroot",
       "Source": "Motoland",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Motoland.styles.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Motoland.styles.css",
       "SourceId": "Motoland",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "Motoland.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Motoland.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Motoland.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Motoland.bundle.scp.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Motoland.bundle.scp.css",
       "SourceId": "Motoland",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "Motoland.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,51 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Motoland.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Motoland.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\css\\Login.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
+      "BasePath": "_content/Motoland",
+      "RelativePath": "css/Login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Login.css"
+    },
+    {
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\css\\Register.css",
+      "SourceId": "Motoland",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
+      "BasePath": "_content/Motoland",
+      "RelativePath": "css/Register.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Register.css"
+    },
+    {
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\css\\site.css",
+      "SourceId": "Motoland",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\favicon.ico",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\js\\site.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -112,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -131,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -150,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -169,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -188,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -207,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -226,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -245,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -264,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -283,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -302,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -321,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -340,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -359,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -378,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -397,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -416,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -435,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -454,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -473,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -492,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -511,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -530,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -549,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -568,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -587,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -606,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -625,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -644,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -663,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -682,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -701,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -720,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -739,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Motoland",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\wwwroot\\",
       "BasePath": "_content/Motoland",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

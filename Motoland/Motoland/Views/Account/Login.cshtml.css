@@ -1,5 +1,4 @@
-/* _content/Motoland/Views/Account/Login.cshtml.rz.scp.css */
-html[b-1fhelyuen5], body[b-1fhelyuen5]
+﻿html, body
 
 {
     height: 100%;
@@ -13,7 +12,7 @@ html[b-1fhelyuen5], body[b-1fhelyuen5]
 }
 
 /* Dodanie dynamicznej animacji tła */
-body[b-1fhelyuen5]::before {
+body::before {
     content: '';
     position: fixed;
     top: 0;
@@ -23,10 +22,10 @@ body[b-1fhelyuen5]::before {
     background: radial-gradient(circle at center, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
     z-index: -1;
     opacity: 0.7;
-    animation: animateBg-b-1fhelyuen5 10s infinite alternate ease-in-out;
+    animation: animateBg 10s infinite alternate ease-in-out;
 }
 
-@keyframes animateBg-b-1fhelyuen5 {
+@keyframes animateBg {
     0% {
         transform: scale(1);
     }
@@ -36,7 +35,7 @@ body[b-1fhelyuen5]::before {
     }
 }
 
-.wrapper[b-1fhelyuen5] {
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,17 +43,17 @@ body[b-1fhelyuen5]::before {
     height: 100%;
 }
 
-.login-container[b-1fhelyuen5] {
+.login-container {
     background: rgba(50, 0, 0, 0.9);
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
     padding: 40px;
     width: 350px;
     text-align: center;
-    animation: fadeIn-b-1fhelyuen5 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
 }
 
-@keyframes fadeIn-b-1fhelyuen5 {
+@keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateY(20px);
@@ -66,32 +65,32 @@ body[b-1fhelyuen5]::before {
     }
 }
 
-.login-container h2[b-1fhelyuen5] {
+.login-container h2 {
     margin-bottom: 20px;
     color: #ffdddd;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.error-message[b-1fhelyuen5] {
+.error-message {
     color: #ff4d4d;
     margin-bottom: 15px;
     font-size: 14px;
 }
 
-.form-group[b-1fhelyuen5] {
+.form-group {
     margin-bottom: 20px;
     text-align: left;
 }
 
-    .form-group label[b-1fhelyuen5] {
+    .form-group label {
         display: block;
         margin-bottom: 8px;
         color: #ffcccc;
         font-size: 14px;
     }
 
-    .form-group input[b-1fhelyuen5] {
+    .form-group input {
         width: 100%;
         padding: 12px;
         border: 1px solid #660000;
@@ -102,13 +101,13 @@ body[b-1fhelyuen5]::before {
         transition: border-color 0.3s, background-color 0.3s;
     }
 
-        .form-group input:focus[b-1fhelyuen5] {
+        .form-group input:focus {
             border-color: #ff0000;
             background-color: #440000;
             outline: none;
         }
 
-.btn[b-1fhelyuen5] {
+.btn {
     width: 100%;
     padding: 12px;
     background-color: #990000;
@@ -120,33 +119,33 @@ body[b-1fhelyuen5]::before {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-    .btn:hover[b-1fhelyuen5] {
+    .btn:hover {
         background-color: #ff1a1a;
         transform: scale(1.05);
     }
 
-.footer[b-1fhelyuen5] {
+.footer {
     margin-top: 20px;
     font-size: 13px;
     color: #ffcccc;
 }
 
-    .footer a[b-1fhelyuen5] {
+    .footer a {
         color: #ff6666;
         text-decoration: none;
     }
 
-        .footer a:hover[b-1fhelyuen5] {
+        .footer a:hover {
             color: #ff9999;
             text-decoration: underline;
         }
 
 /* Subtelna animacja dla logowania */
-form[b-1fhelyuen5] {
-    animation: slideIn-b-1fhelyuen5 1.5s ease;
+form {
+    animation: slideIn 1.5s ease;
 }
 
-@keyframes slideIn-b-1fhelyuen5 {
+@keyframes slideIn {
     from {
         transform: translateY(-30px);
         opacity: 0;
@@ -158,42 +157,3 @@ form[b-1fhelyuen5] {
     }
 }
     
-/* _content/Motoland/Views/Shared/_Layout.cshtml.rz.scp.css */
-a.navbar-brand[b-ksx7u20dko] {
-    white-space: normal;
-    text-align: center;
-    word-break: break-all;
-}
-
-a[b-ksx7u20dko] {
-    color: #0077cc;
-}
-
-.btn-primary[b-ksx7u20dko] {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active[b-ksx7u20dko], .nav-pills .show > .nav-link[b-ksx7u20dko] {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
-}
-
-.border-top[b-ksx7u20dko] {
-    border-top: 1px solid #e5e5e5;
-}
-
-.border-bottom[b-ksx7u20dko] {
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow[b-ksx7u20dko] {
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy[b-ksx7u20dko] {
-    font-size: 1rem;
-    line-height: inherit;
-}

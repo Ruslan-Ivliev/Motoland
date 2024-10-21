@@ -246,6 +246,103 @@
             height: 40px;
             margin-top: 20px;
         }
+
+
+
+
+        .lists_car {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .lists_car:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            }
+
+        .block_car_image {
+            background-color: yellow;
+            background-size: cover;
+            background-position: center;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+            .block_car_image img{
+                max-width: 300px;
+                max-height: 200px;
+                border-radius:8px;
+            }
+
+        .block_car_opis {
+            display: flex;
+            flex-direction: column;
+            margin-left: 100px;
+        }
+
+            
+            .block_car_opis span {
+                margin: 5px 0;
+                font-size: 16px;
+                color: #666;
+            }
+
+            .block_car_opis .price {
+                font-size: 18px;
+                font-weight: bold;
+                color: #1e88e5;
+            }
+
+        .button_lists{
+            flex-direction: row;
+            display:flex;
+            list-style:none;
+            justify-content:space-between;
+
+        }
+            .button_lists button{
+               background-color: white;
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+                font-size: 14px;
+                border:none;
+                margin: 10px 0;
+                border-radius: 6px;
+                padding:10px 10px;
+
+            }
+
+                .button_lists button:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            }
+
+                .button_lists button.hearth {
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    font-size: 20px;
+                    transition: color 0.3s;
+                    color: #555; /* Kolor domyślny */
+                }
+
+                    /* Styl dla serduszka po kliknięciu (aktywny) */
+                    .button_lists button.hearth.liked {
+                        color: red;
+                    }
+
+                    .button_lists button.hearth .fa-heart {
+                        color: #555;
+                        transition: color 0.3s;
+                    }
+
+                    .button_lists button.hearth.liked .fa-heart {
+                        color: red;
+                    }
     </style>
 </head>
 <body>
@@ -330,6 +427,31 @@
                     <p class="p_item">Nie znaleziono samochodów spełniających podane kryteria.</p>
                 }
             </section>
+
+            <section>
+                <div class="lists_car">
+                    <div class="block_car_image">
+                        <img src="https://jakjezdzisz.pl/_next/image?url=https%3A%2F%2Fjakjezdzisz.pl%2Fstorage%2Fmedia%2F91c79b27-e056-4886-b6e4-abcf2dcd17a0%2Fthumbnail%2FlAvuRlLMzA0HuEMc3yTYcg19xgmcE6%2Fab6c3d267357140f31293e234edfee96.webp&w=640&q=75" alt="car" />
+                    </div>
+                    <div class="block_car_opis">
+                        <ul>
+                            <li>MARKA: Volkswagen</li>
+                            <li>MODEL: GOLF VII</li>
+                            <li>COLOR: DIM GRAY</li>
+                        </ul>
+                       
+                        <span>
+                           Na sprzedaże GOLF VII, przebieg 100k
+                        </span>
+                        <ul class="button_lists">
+                            <li><button>SMS</button></li>
+                            <li><button>CAll</button></li>
+                            <li><button class="hearth" aria-pressed="false" aria-label="Dodaj do ulubionych"><i class="fas fa-heart"></i></button></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
 
@@ -338,5 +460,21 @@
         © 2024 AutoSprzedaż. Wszelkie prawa zastrzeżone.
     </footer>
 
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const heartButtons = document.querySelectorAll('.button_lists .hearth');
+
+            heartButtons.forEach(function (button) {
+                button.addEventListener('click', function () {
+                    button.classList.toggle('liked');
+
+                    // Aktualizacja atrybutu aria-pressed dla dostępności
+                    const isLiked = button.classList.contains('liked');
+                    button.setAttribute('aria-pressed', isLiked);
+                });
+            });
+        });
+    </script>
 </body>
 </html>

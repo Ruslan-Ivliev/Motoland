@@ -45,12 +45,13 @@
             flex: 1; /* Główna treść będzie elastyczna */
             min-height: calc(100vh - var(--header-height) - var(--footer-height));
         }
-        .main .container h1{
+
+            .main .container h1 {
                 color: brown;
-            font-family:Roboto;
-            text-align:center;
-            font-weight:700;
-        }
+                font-family: Roboto;
+                text-align: center;
+                font-weight: 700;
+            }
 
         /* Kontener */
         .container {
@@ -72,7 +73,7 @@
 
 
 
-            .header .motoland a{
+            .header .motoland a {
                 font-family: 'Merriweather', serif;
                 position: relative;
                 color: brown;
@@ -86,7 +87,8 @@
                 line-height: 1;
                 text-decoration: none;
             }
-            .header .motoland a:before{
+
+                .header .motoland a:before {
                     content: "";
                     position: absolute;
                     width: 12px;
@@ -95,7 +97,7 @@
                     left: -12px;
                     border: 4px solid brown;
                     box-sizing: border-box;
-            }
+                }
 
         .auth-buttons {
             display: flex;
@@ -118,10 +120,10 @@
                     color: brown;
                 }
 
-        .p_item{
-            color:brown;
-            font-size:20px;
-            width:100vh;
+        .p_item {
+            color: brown;
+            font-size: 20px;
+            width: 100vh;
         }
 
         /* Sekcja filtrów */
@@ -143,7 +145,7 @@
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
-            color:brown;
+            color: brown;
         }
 
             .filter-group div {
@@ -222,6 +224,13 @@
                 margin: 5px 0;
                 color: #666;
             }
+
+        .car-description {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
 
         .price {
             font-size: 18px;
@@ -316,6 +325,9 @@
                             <div class="car-details">
                                 <h3>@car.Brand @car.Model</h3>
                                 <p>Rok: @car.Year</p>
+                                <p>Przebieg: @car.Mileage km</p>
+                                <p>Poj. Silnika: @car.EngineCapacity cc</p>
+                                <p class="car-description">@car.Description</p>
                                 <p class="price">Cena: @car.Price zł</p>
                             </div>
                         </div>
