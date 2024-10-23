@@ -12,7 +12,15 @@ namespace Motoland.Controllers
         {
             _logger = logger;
         }
+        public IActionResult Administrator()
+        {
+            return View();
+        }
 
+        public IActionResult car_datails()
+        {
+            return View();
+        }
         public IActionResult Login()
         {
             return View();

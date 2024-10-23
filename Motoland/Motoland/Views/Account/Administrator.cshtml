@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="~/css/Admin.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div class="wrapper">
+        <div class="admin-container">
+            <h1>Admin Dashboard</h1>
+
+            <!-- Admin Panels Section -->
+            <div class="admin-panel">
+                <div class="panel-item">
+                    <h3>User Management</h3>
+                    <p>Manage users, edit their profiles, assign roles, and more.</p>
+                </div>
+                <div class="panel-item">
+                    <h3>Reports</h3>
+                    <p>View and manage user reports, system logs, and analytics.</p>
+                </div>
+                <div class="panel-item">
+                    <h3>Settings</h3>
+                    <p>Configure system settings, manage security, and other configurations.</p>
+                </div>
+            </div>
+
+            <!-- Data Table Section -->
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>john_doe</td>
+                            <td>john@example.com</td>
+                            <td>Admin</td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>jane_smith</td>
+                            <td>jane@example.com</td>
+                            <td>User</td>
+                            <td>Inactive</td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Action Button -->
+            <button class="btn">Add New User</button>
+        </div>
+    </div>
+</body>
+</html>

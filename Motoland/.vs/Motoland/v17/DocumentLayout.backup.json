@@ -3,6 +3,74 @@
   "WorkspaceRootPath": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\wwwroot\\css\\car-datails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\wwwroot\\css\\car-datails.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\wwwroot\\css\\index.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\wwwroot\\css\\index.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\views\\home\\car_datails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\views\\home\\car_datails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\motoland.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\motoland.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\mysqlserverversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\mysqlserverversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\views\\account\\administrator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\views\\account\\administrator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -19,28 +87,12 @@
       "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\migrations\\20241015081342_motoland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\migrations\\20241015081342_motoland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\views\\account\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\views\\account\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\views\\account\\login.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\views\\account\\login.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,20 +107,8 @@
       "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\models\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\views\\home\\user_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\views\\home\\user_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\migrations\\20241007094130_createuserstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,24 +126,8 @@
       "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\globalsuppressions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\mysqlserverversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\mysqlserverversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|solutionrelative:motoland\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B332114-1EDB-41B6-B0F9-9C598C19387A}|Motoland\\Motoland.csproj|c:\\users\\lololoshka\\documents\\github\\motoland\\motoland\\motoland\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -121,136 +145,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.css",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Register.css",
-              "RelativeDocumentMoniker": "Motoland\\wwwroot\\css\\Register.css",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Register.css",
-              "RelativeToolTip": "Motoland\\wwwroot\\css\\Register.css",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAQwGkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "car-datails.css",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\car-datails.css",
+              "RelativeDocumentMoniker": "Motoland\\wwwroot\\css\\car-datails.css",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\car-datails.css*",
+              "RelativeToolTip": "Motoland\\wwwroot\\css\\car-datails.css*",
+              "ViewState": "AgIAADcBAAAAAAAAAAAmwF4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-21T10:34:07.162Z",
+              "WhenOpened": "2024-10-23T10:42:36.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.css",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Login.css",
-              "RelativeDocumentMoniker": "Motoland\\wwwroot\\css\\Login.css",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Login.css",
-              "RelativeToolTip": "Motoland\\wwwroot\\css\\Login.css",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAQwGkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\index.css",
+              "RelativeDocumentMoniker": "Motoland\\wwwroot\\css\\index.css",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\index.css",
+              "RelativeToolTip": "Motoland\\wwwroot\\css\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-21T10:30:01.061Z",
+              "WhenOpened": "2024-10-23T10:41:39.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\index.css",
+              "RelativeDocumentMoniker": "Motoland\\wwwroot\\css\\index.css",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\index.css",
+              "RelativeToolTip": "Motoland\\wwwroot\\css\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T10:41:09.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "car_datails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Home\\car_datails.cshtml",
+              "RelativeDocumentMoniker": "Motoland\\Views\\Home\\car_datails.cshtml",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Home\\car_datails.cshtml",
+              "RelativeToolTip": "Motoland\\Views\\Home\\car_datails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T10:40:01.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Motoland\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Motoland\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-21T10:28:19.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Account\\Login.cshtml.css",
-              "RelativeDocumentMoniker": "Motoland\\Views\\Account\\Login.cshtml.css",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Account\\Login.cshtml.css",
-              "RelativeToolTip": "Motoland\\Views\\Account\\Login.cshtml.css",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAQwJ8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-21T10:26:04.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.css",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Account\\Login.css",
-              "RelativeDocumentMoniker": "Motoland\\Views\\Account\\Login.css",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Account\\Login.css",
-              "RelativeToolTip": "Motoland\\Views\\Account\\Login.css",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAQwJwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-21T10:25:56.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20241015081342_Motoland.cs",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Migrations\\20241015081342_Motoland.cs",
-              "RelativeDocumentMoniker": "Motoland\\Migrations\\20241015081342_Motoland.cs",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Migrations\\20241015081342_Motoland.cs",
-              "RelativeToolTip": "Motoland\\Migrations\\20241015081342_Motoland.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Program.cs",
+              "RelativeDocumentMoniker": "Motoland\\Program.cs",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Program.cs",
+              "RelativeToolTip": "Motoland\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAArwBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T08:13:42.427Z",
+              "WhenOpened": "2024-09-30T14:22:18.978Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "GlobalSuppressions.cs",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\GlobalSuppressions.cs",
-              "RelativeDocumentMoniker": "Motoland\\GlobalSuppressions.cs",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\GlobalSuppressions.cs",
-              "RelativeToolTip": "Motoland\\GlobalSuppressions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T09:25:47.857Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "User_Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Home\\User_Login.cshtml",
-              "RelativeDocumentMoniker": "Motoland\\Views\\Home\\User_Login.cshtml",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Home\\User_Login.cshtml",
-              "RelativeToolTip": "Motoland\\Views\\Home\\User_Login.cshtml",
-              "ViewState": "AgIAAD4BAAAAAAAAAAAAAEoBAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T10:50:20.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20241007102527_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Migrations\\20241007102527_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Motoland\\Migrations\\20241007102527_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Migrations\\20241007102527_InitialCreate.cs",
-              "RelativeToolTip": "Motoland\\Migrations\\20241007102527_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Motoland\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Motoland\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T10:25:27.557Z"
+              "WhenOpened": "2024-09-30T15:35:04.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "3irh5fr5..sql",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\AppData\\Local\\Temp\\3irh5fr5..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\3irh5fr5..sql",
-              "ToolTip": "C:\\Users\\Lololoshka\\AppData\\Local\\Temp\\3irh5fr5..sql",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\3irh5fr5..sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-07T10:04:11.445Z"
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Motoland\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Motoland\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T14:24:36.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "20241007094130_CreateUsersTable.cs",
               "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Migrations\\20241007094130_CreateUsersTable.cs",
               "RelativeDocumentMoniker": "Motoland\\Migrations\\20241007094130_CreateUsersTable.cs",
@@ -262,7 +251,214 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Motoland\\Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Motoland\\Controllers\\CarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T14:20:06.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Motoland\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Motoland\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T09:23:14.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Motoland\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Motoland\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T14:19:28.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Motoland",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj",
+              "RelativeDocumentMoniker": "Motoland\\Motoland.csproj",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj",
+              "RelativeToolTip": "Motoland\\Motoland.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-23T10:43:37.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Administrator.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Account\\Administrator.cshtml",
+              "RelativeDocumentMoniker": "Motoland\\Views\\Account\\Administrator.cshtml",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Account\\Administrator.cshtml",
+              "RelativeToolTip": "Motoland\\Views\\Account\\Administrator.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T07:51:29.654Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "GlobalSuppressions.cs",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\GlobalSuppressions.cs",
+              "RelativeDocumentMoniker": "Motoland\\GlobalSuppressions.cs",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\GlobalSuppressions.cs",
+              "RelativeToolTip": "Motoland\\GlobalSuppressions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:25:47.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Admin.css",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Admin.css",
+              "RelativeDocumentMoniker": "Motoland\\wwwroot\\css\\Admin.css",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Admin.css",
+              "RelativeToolTip": "Motoland\\wwwroot\\css\\Admin.css",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAYwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-22T07:51:49.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\appsettings.json",
+              "RelativeDocumentMoniker": "Motoland\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\appsettings.json",
+              "RelativeToolTip": "Motoland\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-02T07:02:23.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Motoland\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\appsettings.Development.json",
+              "RelativeToolTip": "Motoland\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-22T08:16:18.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "3irh5fr5..sql",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\AppData\\Local\\Temp\\3irh5fr5..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\3irh5fr5..sql",
+              "ToolTip": "C:\\Users\\Lololoshka\\AppData\\Local\\Temp\\3irh5fr5..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\3irh5fr5..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-07T10:04:11.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MySqlServerVersion.cs",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\MySqlServerVersion.cs",
+              "RelativeDocumentMoniker": "Motoland\\MySqlServerVersion.cs",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\MySqlServerVersion.cs",
+              "RelativeToolTip": "Motoland\\MySqlServerVersion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T09:06:47.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20241007102527_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Migrations\\20241007102527_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Motoland\\Migrations\\20241007102527_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Migrations\\20241007102527_InitialCreate.cs",
+              "RelativeToolTip": "Motoland\\Migrations\\20241007102527_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:25:27.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User_Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Home\\User_Login.cshtml",
+              "RelativeDocumentMoniker": "Motoland\\Views\\Home\\User_Login.cshtml",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Home\\User_Login.cshtml",
+              "RelativeToolTip": "Motoland\\Views\\Home\\User_Login.cshtml",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAAAEoBAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:50:20.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20241015081342_Motoland.cs",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Migrations\\20241015081342_Motoland.cs",
+              "RelativeDocumentMoniker": "Motoland\\Migrations\\20241015081342_Motoland.cs",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Migrations\\20241015081342_Motoland.cs",
+              "RelativeToolTip": "Motoland\\Migrations\\20241015081342_Motoland.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:13:42.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Motoland\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Motoland\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-21T10:28:19.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "Motoland\\wwwroot\\css\\Login.css",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "Motoland\\wwwroot\\css\\Login.css",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAQwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-21T10:30:01.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.css",
+              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Register.css",
+              "RelativeDocumentMoniker": "Motoland\\wwwroot\\css\\Register.css",
+              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Register.css",
+              "RelativeToolTip": "Motoland\\wwwroot\\css\\Register.css",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAQwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-21T10:34:07.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Models\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Motoland\\Models\\Services\\IUserService.cs",
@@ -270,12 +466,11 @@
               "RelativeToolTip": "Motoland\\Models\\Services\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T09:38:59.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T09:38:59.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Motoland\\Models\\ApplicationDbContext.cs",
@@ -283,37 +478,11 @@
               "RelativeToolTip": "Motoland\\Models\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T09:31:37.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T09:31:37.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Motoland\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Motoland\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAABwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T15:35:04.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CarController.cs",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\CarController.cs",
-              "RelativeDocumentMoniker": "Motoland\\Controllers\\CarController.cs",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\CarController.cs",
-              "RelativeToolTip": "Motoland\\Controllers\\CarController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwFUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:20:06.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Motoland\\Properties\\launchSettings.json",
@@ -325,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Models\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Motoland\\Models\\Services\\UserService.cs",
@@ -333,12 +502,11 @@
               "RelativeToolTip": "Motoland\\Models\\Services\\UserService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:21:13.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:21:13.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Motoland\\Views\\Account\\Register.cshtml",
@@ -346,36 +514,11 @@
               "RelativeToolTip": "Motoland\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAAQAAAAAAAAAAAAiwCcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T16:12:52.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T16:12:52.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\appsettings.json",
-              "RelativeDocumentMoniker": "Motoland\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\appsettings.json",
-              "RelativeToolTip": "Motoland\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-02T07:02:23.457Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Motoland\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Motoland\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAhwBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T09:23:14.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Models\\User.cs",
               "RelativeDocumentMoniker": "Motoland\\Models\\User.cs",
@@ -383,49 +526,11 @@
               "RelativeToolTip": "Motoland\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T09:30:33.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T09:30:33.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Motoland\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Motoland\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T14:19:28.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Program.cs",
-              "RelativeDocumentMoniker": "Motoland\\Program.cs",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Program.cs",
-              "RelativeToolTip": "Motoland\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:22:18.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "MySqlServerVersion.cs",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\MySqlServerVersion.cs",
-              "RelativeDocumentMoniker": "Motoland\\MySqlServerVersion.cs",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\MySqlServerVersion.cs",
-              "RelativeToolTip": "Motoland\\MySqlServerVersion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T09:06:47.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Motoland\\Views\\Shared\\_Layout.cshtml",
@@ -437,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Motoland\\Views\\Shared\\_Layout.cshtml.css",
@@ -449,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Models\\Car.cs",
               "RelativeDocumentMoniker": "Motoland\\Models\\Car.cs",
@@ -458,19 +563,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T14:19:52.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Motoland\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Motoland\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAMABAAAAAAAAAAAiwN0BAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T14:24:36.176Z",
-              "EditorCaption": ""
             }
           ]
         }

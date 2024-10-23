@@ -44,14 +44,19 @@ app.UseRouting();
 app.UseAuthorization();
 
 
-/*
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Account}/{action=Login}/{id?}");*/
 
 app.MapControllerRoute(
     name: "Home",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+        pattern: "{controller=Home}/{action=index}");
+
+app.MapControllerRoute(
+    name: "home",
+    pattern: "{controller=Home}/{action=car_datails}"
+    );
+
+app.MapControllerRoute(
+    name: "Home",
+    pattern: "{controller=Account}/{action=Administrator}/{id?}");
 
 app.MapControllerRoute(
     name: "Home",

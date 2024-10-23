@@ -13,6 +13,11 @@ namespace Motoland.Controllers
             _userService = userService;
         }
 
+        public IActionResult Administrator()
+        {
+            return View();
+        }
+
         // GET: Account/Login
         public IActionResult Login()
         {

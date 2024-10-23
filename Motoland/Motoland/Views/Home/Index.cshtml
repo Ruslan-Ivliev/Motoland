@@ -1,395 +1,51 @@
-﻿@model List<Motoland.Models.Car>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MotoLand</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="~/css/index.css">
     <style>
-        /* Nowoczesny reset */
-        html {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            --header-height: 50px;
-            --footer-height: 50px;
-            font-family: Roboto,arial, sans-serif;
-        }
 
-        body {
-            background-color: #f0f2f5;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            height: 100vh; /* Ustawienie minimalnej wysokości na 100% wysokości widoku */
-            display: flex;
-            flex-direction: column;
-        }
-
-            body::before {
-                content: '';
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: url('https://cdn.dribbble.com/users/515394/screenshots/5084521/car_loop_4x3.gif') no-repeat center center;
-                background-size: cover;
-                z-index: -1;
-                opacity: 0.5;
-            }
-
-        .main {
-            flex: 1; /* Główna treść będzie elastyczna */
-            min-height: calc(100vh - var(--header-height) - var(--footer-height));
-        }
-        .main .container h1{
-                color: brown;
-            font-family:Roboto;
-            text-align:center;
-            font-weight:700;
-        }
-
-        /* Kontener */
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        /* Nagłówek */
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            color: #fff;
-            height: var(--header-height);
-        }
-
-        
-
-            .header .motoland a{
-                font-family: 'Merriweather', serif;
-                position: relative;
-                color: brown;
-                font-size: 50px;
-                font-weight: normal;
-                padding: 8px 20px 7px 20px;
-                border-top: 4px solid;
-                border-left: 4px solid;
-                display: inline-block;
-                margin: 0;
-                line-height: 1;
-                text-decoration: none;
-            }
-            .header .motoland a:before{
-                    content: "";
-                    position: absolute;
-                    width: 12px;
-                    height: 12px;
-                    top: -12px;
-                    left: -12px;
-                    border: 4px solid brown;
-                    box-sizing: border-box;
-            }
-
-        .auth-buttons {
-            display: flex;
-            gap: 20px;
-        }
-
-            .auth-buttons a {
-                color: brown;
-                font-weight: 500;
-                text-decoration: none;
-                padding: 10px 20px;
-                background-color: transparent;
-                border: 1px solid brown;
-                border-radius: 6px;
-                transition: all 0.3s ease;
-            }
-
-                .auth-buttons a:hover {
-                    background-color: white;
-                    color: brown;
-                }
-
-        .p_item{
-            color:brown;
-            font-size:20px;
-            width:100vh;
-        }
-
-        /* Sekcja filtrów */
-        .filters {
-            background-color: #fff;
-            padding: 25px;
-            margin-bottom: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-            .filters h2 {
-                margin-bottom: 20px;
-                font-size: 24px;
-                color: brown;
-            }
-
-        .filter-group {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            color:brown;
-        }
-
-            .filter-group div {
-                flex: 1;
-                min-width: 220px;
-            }
-
-            .filter-group label {
-                font-weight: 600;
-                margin-bottom: 8px;
-                display: block;
-            }
-
-            .filter-group input,
-            .filter-group select {
-                width: 100%;
-                padding: 12px;
-                border: 1px solid #ddd;
-                border-radius: 8px;
-                font-size: 16px;
-            }
-
-            .filter-group button {
-                padding: 12px 20px;
-                background-color: brown;
-                color: brown;
-                border: none;
-                border-radius: 8px;
-                cursor: pointer;
-                font-size: 16px;
-                transition: background-color 0.3s;
-            }
-
-                .filter-group button:hover {
-                    background-color: brown;
-                }
-
-        /* Lista samochodów */
-        .car-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 25px;
-        }
-
-        .car-card {
-            background-color: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-            .car-card:hover {
-                transform: translateY(-10px);
-                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-            }
-
-        .car-image {
-            width: 100%;
-            height: 200px;
-            background-size: cover;
-            background-position: center;
-        }
-
-        .car-details {
-            padding: 20px;
-        }
-
-            .car-details h3 {
-                font-size: 20px;
-                margin-bottom: 10px;
-                color: #333;
-            }
-
-            .car-details p {
-                margin: 5px 0;
-                color: #666;
-            }
-
-        .price {
-            font-size: 18px;
-            font-weight: bold;
-            color: #1e88e5;
-        }
-
-        /* Stopka */
-        .footer {
-            text-align: center;
-            color: brown;
-            font-size: 16px;
-            height: var(--footer-height);
-        }
-
-        .search {
-            border: 1px solid white;
-            border-radius: 6px;
-            color: white;
-            background-color: brown;
-            width: 100px;
-            height: 40px;
-            margin-top: 20px;
-        }
-
-
-
-
-        .lists_car {
-            display: flex;
-            align-items: center;
-            padding: 20px;
-            margin-bottom: 20px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-            .lists_car:hover {
-                transform: translateY(-10px);
-                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-            }
-
-        .block_car_image {
-            background-color: yellow;
-            background-size: cover;
-            background-position: center;
-            margin-right: 20px;
-            border-radius: 8px;
-        }
-            .block_car_image img{
-                max-width: 300px;
-                max-height: 200px;
-                border-radius:8px;
-            }
-
-        .block_car_opis {
-            display: flex;
-            flex-direction: column;
-            margin-left: 100px;
-        }
-
-            
-            .block_car_opis span {
-                margin: 5px 0;
-                font-size: 16px;
-                color: #666;
-            }
-
-            .block_car_opis .price {
-                font-size: 18px;
-                font-weight: bold;
-                color: #1e88e5;
-            }
-
-        .button_lists{
-            flex-direction: row;
-            display:flex;
-            list-style:none;
-            justify-content:space-between;
-
-        }
-            .button_lists button{
-               background-color: white;
-                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-                font-size: 14px;
-                border:none;
-                margin: 10px 0;
-                border-radius: 6px;
-                padding:10px 10px;
-
-            }
-
-                .button_lists button:hover {
-                    transform: translateY(-2px);
-                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-            }
-
-                .button_lists button.hearth {
-                    background: none;
-                    border: none;
-                    cursor: pointer;
-                    font-size: 20px;
-                    transition: color 0.3s;
-                    color: #555; /* Kolor domyślny */
-                }
-
-                    /* Styl dla serduszka po kliknięciu (aktywny) */
-                    .button_lists button.hearth.liked {
-                        color: red;
-                    }
-
-                    .button_lists button.hearth .fa-heart {
-                        color: #555;
-                        transition: color 0.3s;
-                    }
-
-                    .button_lists button.hearth.liked .fa-heart {
-                        color: red;
-                    }
     </style>
 </head>
 <body>
 
-    <!-- Nagłówek -->
+    <!-- Header -->
     <header class="header">
         <h1 class="motoland"><a href="">MotoLand</a></h1>
         <div class="auth-buttons">
-            <a href="/Account/Login">Zaloguj</a>
-            <a href="/Account/Register">Zarejestruj się</a>
+            <a href="#">Zaloguj się</a>
+            <a href="#">Zarejestruj się</a>
         </div>
     </header>
 
-    <!-- Główna sekcja -->
+    <!-- Main Section -->
     <main class="main">
         <div class="container">
-             <h1>Samochody na sprzedaż</h1>
+            <h1>Znajdź swoje wymarzone auto</h1>
 
-            <!-- Sekcja filtrów -->
+            <!-- Filter Section -->
             <section class="filters">
-                <h2>Filtruj wyniki</h2>
-                <form action="/Car/Filter" method="post">
+                <h2>Filtry wyszukiwania</h2>
+                <form id="car-search-form">
                     <div class="filter-group">
                         <div>
-                            <label for="brand">Marka:</label>
-                            <select id="brand" name="brand">
-                                <option value="">Wybierz</option>
-                                <option value="bmw">BMW</option>
-                                <option value="audi">Audi</option>
-                                <option value="mercedes">Mercedes</option>
-                            </select>
+                            <label for="car-brand">Marka:</label>
+                            <input type="text" id="car-brand" name="car_brand" placeholder="Marka">
                         </div>
                         <div>
-                            <label for="model">Model:</label>
-                            <input type="text" id="model" name="model" placeholder="Wprowadź model">
+                            <label for="car-model">Model:</label>
+                            <input type="text" id="car-model" name="car_model" placeholder="Model">
                         </div>
                         <div>
-                            <label for="price-min">Cena minimalna (zł):</label>
-                            <input type="number" id="price-min" name="priceMin" placeholder="Od">
+                            <label for="car-year">Rok:</label>
+                            <input type="number" id="car-year" name="car_year" placeholder="Rok">
                         </div>
                         <div>
-                            <label for="price-max">Cena maksymalna (zł):</label>
-                            <input type="number" id="price-max" name="priceMax" placeholder="Do">
-                        </div>
-                        <div>
-                            <label for="year">Rok produkcji:</label>
-                            <input type="number" id="year" name="year" placeholder="Rok">
+                            <label for="car-price">Cena:</label>
+                            <input type="number" id="car-price" name="car_price" placeholder="Cena">
                         </div>
                         <div>
                             <label for="carmileage">Przebieg:</label>
@@ -401,80 +57,61 @@
                         </div>
                     </div>
                     <div>
-                        <button class="search" type="submit">Szukaj</button>
+                        <button type="submit">Szukaj</button>
                     </div>
                 </form>
             </section>
 
-            <!-- Lista samochodów -->
+            <!-- Car List -->
             <section class="car-list">
-                @if (Model != null && Model.Any())
-                {
-                    foreach (var car in Model)
-                    {
-                        <div class="car-card">
-                            <div class="car-image" style="background-image: url('@car.ImageUrl');"></div>
-                            <div class="car-details">
-                                <h3>@car.Brand @car.Model</h3>
-                                <p>Rok: @car.Year</p>
-                                <p class="price">Cena: @car.Price zł</p>
-                            </div>
-                        </div>
-                    }
-                }
-                else
-                {
-                    <p class="p_item">Nie znaleziono samochodów spełniających podane kryteria.</p>
-                }
-            </section>
-
-            <section>
-                <div class="lists_car">
-                    <div class="block_car_image">
-                        <img src="https://jakjezdzisz.pl/_next/image?url=https%3A%2F%2Fjakjezdzisz.pl%2Fstorage%2Fmedia%2F91c79b27-e056-4886-b6e4-abcf2dcd17a0%2Fthumbnail%2FlAvuRlLMzA0HuEMc3yTYcg19xgmcE6%2Fab6c3d267357140f31293e234edfee96.webp&w=640&q=75" alt="car" />
+                <a href="Home/car_datails" class="car-card">
+                    <div class="car-image">
+                        <img src="https://cdn.prod.website-files.com/645ba5c617e2c868445e6e83/65aaf69ac5992b7b3e1e390e_blog-92.webp" alt="BMW X5">
                     </div>
-                    <div class="block_car_opis">
-                        <ul>
-                            <li>MARKA: Volkswagen</li>
-                            <li>MODEL: GOLF VII</li>
-                            <li>COLOR: DIM GRAY</li>
-                        </ul>
-                       
-                        <span>
-                           Na sprzedaże GOLF VII, przebieg 100k
-                        </span>
-                        <ul class="button_lists">
-                            <li><button>SMS</button></li>
-                            <li><button>CAll</button></li>
-                            <li><button class="hearth" aria-pressed="false" aria-label="Dodaj do ulubionych"><i class="fas fa-heart"></i></button></li>
-
-                        </ul>
+                    <div class="car-details">
+                        <h3>BMW X5</h3>
+                        <p>Rok: 2022</p>
+                        <p class="price">Cena: 450 000 zł</p>
                     </div>
-                </div>
+                </a>
+                <a href="car-details.html" class="car-card">
+                    <div class="car-image">
+                        <img src="https://motofilm.pl/wp-content/uploads/2021/11/2022-Audi-A8-4.jpg" alt="Audi A8">
+                    </div>
+                    <div class="car-details">
+                        <h3>Audi A8</h3>
+                        <p>Rok: 2021</p>
+                        <p class="price">Cena: 350 000 zł</p>
+                    </div>
+                </a>
+                <a href="car-details.html" class="car-card">
+                    <div class="car-image">
+                        <img src="https://www.mercedes-benz.pl/content/poland/pl/passengercars/models/saloon/s-class/overview/_jcr_content/root/responsivegrid/tabs/tabitem/hotspot_module/hotspot_simple_image.component.damq1.3327517345242.jpg/mercedes-benz-s-class-wv223-exterior-hotspot-3302x1858-09-2022.jpg" alt="Mercedes-Benz S-Class">
+                    </div>
+                    <div class="car-details">
+                        <h3>Mercedes-Benz S-Class</h3>
+                        <p>Rok: 2020</p>
+                        <p class="price">Cena: 400 000 zł</p>
+                    </div>
+                </a>
+                <a href="car-details.html" class="car-card">
+                    <div class="car-image">
+                        <img src="https://motofilm.pl/wp-content/uploads/2021/11/2022-Audi-A8-4.jpg" alt="Audi A8">
+                    </div>
+                    <div class="car-details">
+                        <h3>Audi A8</h3>
+                        <p>Rok: 2021</p>
+                        <p class="price">Cena: 350 000 zł</p>
+                    </div>
+                </a>
             </section>
         </div>
     </main>
 
-    <!-- Stopka -->
+    <!-- Footer -->
     <footer class="footer">
-        © 2024 AutoSprzedaż. Wszelkie prawa zastrzeżone.
+        &copy; 2024 MotoLand. Wszelkie prawa zastrzeżone. | <a href="/Privacy">Polityka prywatności</a>
     </footer>
 
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const heartButtons = document.querySelectorAll('.button_lists .hearth');
-
-            heartButtons.forEach(function (button) {
-                button.addEventListener('click', function () {
-                    button.classList.toggle('liked');
-
-                    // Aktualizacja atrybutu aria-pressed dla dostępności
-                    const isLiked = button.classList.contains('liked');
-                    button.setAttribute('aria-pressed', isLiked);
-                });
-            });
-        });
-    </script>
 </body>
 </html>

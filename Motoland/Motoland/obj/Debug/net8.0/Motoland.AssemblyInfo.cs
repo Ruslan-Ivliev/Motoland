@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Motoland")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8687280fbfb5e4ffeb06f4e64fb2b5ba8c85eaee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a1b52b49df605c1765b77fb373baf2f16398697")]
 [assembly: System.Reflection.AssemblyProductAttribute("Motoland")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Motoland")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

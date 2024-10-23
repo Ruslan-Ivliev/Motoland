@@ -204,4 +204,3 @@ C:\Users\Lololoshka\Documents\GitHub\Motoland\Motoland\Motoland\bin\Debug\net8.0
 C:\Users\Lololoshka\Documents\GitHub\Motoland\Motoland\Motoland\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
 C:\Users\Lololoshka\Documents\GitHub\Motoland\Motoland\Motoland\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
 C:\Users\Lololoshka\Documents\GitHub\Motoland\Motoland\Motoland\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
-C:\Users\Lololoshka\Documents\GitHub\MOTOLAND\MOTOLAND\Motoland\obj\Debug\net8.0\scopedcss\Views\Account\Login.cshtml.rz.scp.css

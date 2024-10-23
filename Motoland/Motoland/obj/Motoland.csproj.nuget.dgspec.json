@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\Motoland.csproj": {}
+    "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\Motoland.csproj": {
+    "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\Motoland.csproj",
+        "projectUniqueName": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj",
         "projectName": "Motoland",
-        "projectPath": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\Motoland.csproj",
+        "projectPath": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj",
         "packagesPath": "C:\\Users\\Lololoshka\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Lololoshka\\Documents\\GitHub\\MOTOLAND\\MOTOLAND\\Motoland\\obj\\",
         "projectStyle": "PackageReference",

@@ -1,0 +1,282 @@
+﻿
+html,
+body,
+h1,
+h2,
+h3,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #1e1e1e; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure full height */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #2c2c2c; /* Darker header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1; /* Ensure header is above background */
+    animation: fadeIn 0.5s ease; /* Fade-in effect */
+}
+
+    .header .motoland a {
+        color: #dc3545; /* Bootstrap danger color */
+        font-size: 36px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+.auth-buttons a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #dc3545; /* Bootstrap danger color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s; /* Added transform */
+}
+
+    .auth-buttons a:hover {
+        background-color: #c82333; /* Darker shade */
+        transform: translateY(-3px); /* Lift effect */
+    }
+
+/* Main Section */
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    animation: slideIn 0.5s ease; /* Slide-in effect */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #2c2c2c; /* Darker container */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    overflow: hidden; /* Prevent overflow */
+}
+
+.car-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative; /* For pseudo-elements */
+    border-radius: 10px;
+    animation: zoomIn 0.5s ease; /* Zoom-in effect */
+}
+
+    .car-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .car-image:hover img {
+        transform: scale(1.05); /* Slight zoom on hover */
+    }
+
+.car-details {
+    padding: 15px;
+    text-align: center;
+}
+
+    .car-details h1 {
+        font-size: 28px;
+        margin: 10px 0;
+        color: #dc3545; /* Bootstrap danger color */
+        animation: fadeIn 0.5s ease; /* Fade-in effect */
+    }
+
+    .car-details p {
+        margin: 5px 0;
+        color: #a0a0a0; /* Muted text color */
+        animation: fadeIn 0.5s ease; /* Fade-in effect */
+    }
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745; /* Bootstrap success color */
+    animation: fadeIn 0.5s ease; /* Fade-in effect */
+}
+
+/* Features Section */
+.features {
+    margin-top: 30px;
+    animation: fadeIn 0.5s ease; /* Fade-in effect */
+}
+
+    .features h2 {
+        font-size: 24px;
+        color: #e0e0e0; /* Light text */
+        margin-bottom: 15px;
+    }
+
+.feature-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spacing between items */
+}
+
+.feature-item {
+    background-color: #3a3a3a;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    cursor: pointer; /* Indicate clickable */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition */
+    position: relative; /* For pseudo-elements */
+    overflow: hidden; /* Hide overflow */
+}
+
+    .feature-item:hover {
+        transform: translateY(-5px); /* Lift effect */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    }
+
+        .feature-item:hover .feature-description {
+            display: block; /* Show description on hover */
+            animation: fadeIn 0.5s ease; /* Fade-in effect */
+        }
+
+    .feature-item i {
+        font-size: 20px; /* Icon size */
+        color: #dc3545; /* Icon color */
+        margin-right: 10px; /* Spacing between icon and text */
+    }
+
+.feature-description {
+    font-size: 14px; /* Smaller font size for description */
+    color: #a0a0a0; /* Muted text color */
+    margin-top: 5px;
+    display: none; /* Hidden by default */
+    padding: 10px; /* Padding for description */
+    background-color: #4a4a4a; /* Dark background for description */
+    border-radius: 5px;
+    position: absolute; /* Position absolute */
+    top: 100%; /* Position below the item */
+    left: 0;
+    right: 0; /* Stretch to full width */
+    z-index: 10; /* Ensure above other elements */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Additional Features Section */
+.additional-features {
+    margin-top: 30px;
+    animation: fadeIn 0.5s ease; /* Fade-in effect */
+}
+
+    .additional-features h2 {
+        font-size: 24px;
+        color: #e0e0e0; /* Light text */
+        margin-bottom: 15px;
+    }
+
+.additional-feature-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spacing between items */
+}
+
+.additional-feature-item {
+    background-color: #3a3a3a;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    cursor: pointer; /* Indicate clickable */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition */
+    position: relative; /* For pseudo-elements */
+    overflow: hidden; /* Hide overflow */
+}
+
+    .additional-feature-item:hover {
+        transform: translateY(-5px); /* Lift effect */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    }
+
+        .additional-feature-item:hover .additional-description {
+            display: block; /* Show description on hover */
+            animation: fadeIn 0.5s ease; /* Fade-in effect */
+        }
+
+.additional-description {
+    font-size: 14px; /* Smaller font size for description */
+    color: #a0a0a0; /* Muted text color */
+    margin-top: 5px;
+    display: none; /* Hidden by default */
+    padding: 10px; /* Padding for description */
+    background-color: #4a4a4a; /* Dark background for description */
+    border-radius: 5px;
+    position: absolute; /* Position absolute */
+    top: 100%; /* Position below the item */
+    left: 0;
+    right: 0; /* Stretch to full width */
+    z-index: 10; /* Ensure above other elements */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #2c2c2c; /* Dark footer background */
+    text-align: center;
+    padding: 15px 0;
+    color: #e0e0e0; /* Light text */
+    margin-top: auto; /* Push to bottom */
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
