@@ -34,7 +34,7 @@ namespace Motoland.Controllers
                 else
                 {
                     // Jeśli użytkownik nie jest adminem, przekierowujemy do strony użytkownika
-                    return RedirectToAction("User_Login", "Home");
+                    return RedirectToAction("User_Login", "CarAds");
                 }
             }
 

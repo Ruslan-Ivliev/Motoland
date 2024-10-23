@@ -1,0 +1,60 @@
+﻿@model CarAd
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить объявление</title>
+    <link rel="stylesheet" href="~/css/Create.css">
+</head>
+<body>
+    <header>
+        <h1>Добавить объявление</h1>
+        <nav>
+            <a href="@Url.Action("Index", "CarAds")">Назад к списку</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Форма объявления</h2>
+        <form asp-action="Create" method="post" enctype="multipart/form-data"> <!-- Добавляем атрибут enctype -->
+            <div>
+                <label asp-for="Make"></label>
+                <input asp-for="Make" />
+                <span asp-validation-for="Make" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Model"></label>
+                <input asp-for="Model" />
+                <span asp-validation-for="Model" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Year"></label>
+                <input asp-for="Year" type="number" />
+                <span asp-validation-for="Year" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Price"></label>
+                <input asp-for="Price" type="number" step="0.01" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Description"></label>
+                <textarea asp-for="Description"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div>
+                <label for="images">Добавить изображения (до 8 штук):</label>
+                <input type="file" id="images" name="images" accept="image/*" multiple /> <!-- Поле для загрузки изображений -->
+                <span class="text-danger"></span>
+            </div>
+            <button type="submit">Сохранить</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Все права защищены</p>
+    </footer>
+</body>
+</html>

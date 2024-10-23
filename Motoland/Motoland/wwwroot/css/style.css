@@ -1,0 +1,50 @@
+﻿.car-ads {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Grid with auto resizing */
+    gap: 20px; /* Space between car ads */
+    margin-top: 20px;
+}
+
+.car-ad {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .car-ad:hover {
+        transform: translateY(-10px); /* Slight hover effect */
+    }
+
+    .car-ad h3 {
+        color: #333;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .car-ad p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+.ad-actions {
+    margin-top: 15px;
+}
+
+    .ad-actions a {
+        margin-right: 10px;
+        padding: 10px 15px;
+        background-color: #007BFF;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .ad-actions a:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }

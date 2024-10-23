@@ -1,0 +1,113 @@
+﻿/* Global Reset */
+html, body, h1, h2, p, a, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styles */
+body {
+    background: #1e1e1e; /* Темный фон */
+    color: #e0e0e0; /* Светлый цвет текста */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Полная высота */
+}
+
+/* Header Styles */
+header {
+    background-color: #2c2c2c; /* Темный заголовок */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Центрирование текста */
+}
+
+    header h1 {
+        color: #dc3545; /* Красный цвет для заголовка */
+    }
+
+/* Navigation Styles */
+nav {
+    margin-top: 10px; /* Отступ сверху */
+}
+
+    nav a {
+        color: #ffffff; /* Белый цвет для ссылок */
+        text-decoration: none; /* Убираем подчеркивание */
+        transition: color 0.3s ease; /* Плавный переход цвета */
+    }
+
+        nav a:hover {
+            color: #dc3545; /* Красный цвет при наведении */
+        }
+
+/* Main Section Styles */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование содержимого */
+    padding: 20px;
+}
+
+/* Form Styles */
+form {
+    background-color: #2c2c2c; /* Фон формы */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px; /* Максимальная ширина формы */
+}
+
+    form div {
+        margin-bottom: 15px; /* Отступ между полями формы */
+    }
+
+label {
+    color: #e0e0e0; /* Светлый цвет для меток */
+    display: block; /* Блочный элемент для меток */
+    margin-bottom: 5px; /* Отступ снизу */
+}
+
+input, textarea {
+    width: 100%; /* Полная ширина */
+    padding: 12px; /* Отступ внутри полей */
+    border: 1px solid #495057; /* Цвет границы */
+    border-radius: 5px; /* Закругленные углы */
+    background-color: #4a4a4a; /* Темный фон для полей */
+    color: #e0e0e0; /* Светлый цвет текста */
+    transition: border-color 0.3s ease; /* Плавный переход для границы */
+}
+
+    input:focus, textarea:focus {
+        border-color: #dc3545; /* Цвет границы при фокусе */
+        outline: none; /* Убираем стандартный контур */
+    }
+
+/* Button Styles */
+button {
+    padding: 12px 20px; /* Отступы для кнопки */
+    background-color: #dc3545; /* Красный цвет кнопки */
+    color: #ffffff; /* Белый текст */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Закругленные углы */
+    cursor: pointer; /* Указатель при наведении */
+    font-size: 16px; /* Размер шрифта */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Плавные переходы */
+}
+
+    button:hover {
+        background-color: #c82333; /* Темный цвет кнопки при наведении */
+        transform: translateY(-3px); /* Подъем кнопки */
+    }
+
+/* Footer Styles */
+footer {
+    background-color: #2c2c2c; /* Темный фон для подвала */
+    text-align: center;
+    padding: 15px 0;
+    color: #e0e0e0; /* Светлый текст */
+    font-size: 16px;
+    border-top: 1px solid #495057; /* Граница сверху */
+}

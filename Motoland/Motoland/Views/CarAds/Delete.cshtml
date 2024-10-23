@@ -1,0 +1,33 @@
+﻿@model Motoland.Models.CarAd
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuń Ogłoszenie</title>
+    <link rel="stylesheet" href="~/css/Delete.css"/>
+</head>
+<body>
+    <h1>Usuń Ogłoszenie</h1>
+
+    <h2>Jesteś pewien, że chcesz usunąć ogłoszenie?</h2>
+    <div>
+        <strong>Marka:</strong> @Model.Make<br />
+        <strong>Model:</strong> @Model.Model<br />
+        <strong>Rok:</strong> @Model.Year<br />
+        <strong>Cena:</strong> @Model.Price.ToString("C")<br />
+        <strong>Opis:</strong> @Model.Description<br />
+    </div>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" name="id" value="@Model.Id" />
+        <button type="submit">Usuń</button>
+        <a href="@Url.Action("User_Login")">Anuluj</a>
+    </form>
+
+    <footer>
+        <p>&copy; 2024 Все права защищены</p>
+    </footer>
+</body>
+</html>

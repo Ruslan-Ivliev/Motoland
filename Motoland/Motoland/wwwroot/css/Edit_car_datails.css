@@ -1,0 +1,129 @@
+﻿/* Global Reset */
+html, body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #181818; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #282828; /* Dark header */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    color: #e74c3c; /* Accent color */
+}
+
+nav a {
+    color: #ffffff; /* Light link color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e74c3c; /* Accent on hover */
+}
+
+/* Main Section */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+main h2 {
+    color: #e74c3c; /* Accent color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    width: 90%;
+    max-width: 500px;
+    background: #2c2c2c; /* Dark form background */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+/* Spacing and Layout for Form Elements */
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    font-weight: 600;
+    color: #e0e0e0; /* Light text */
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #495057; /* Input border color */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #3a3a3a; /* Dark input background */
+    color: #e0e0e0;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border-color: #e74c3c; /* Accent on focus */
+    outline: none;
+}
+
+/* Button Styles */
+form button {
+    padding: 12px 20px;
+    background-color: #e74c3c; /* Accent color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #c0392b; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #282828; /* Dark footer background */
+    text-align: center;
+    padding: 15px 0;
+    color: #e0e0e0; /* Light text */
+}
+
+/* Validation Error Styles */
+.text-danger {
+    color: #e74c3c; /* Accent color for validation messages */
+    font-size: 14px;
+    margin-top: 5px;
+}

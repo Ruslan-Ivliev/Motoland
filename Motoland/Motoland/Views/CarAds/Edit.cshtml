@@ -1,0 +1,56 @@
+﻿@model Motoland.Models.CarAd
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редактировать объявление</title>
+    <link rel="stylesheet" href="/css/Edit_car_datails.css">
+</head>
+<body>
+    <header>
+        <h1>Редактировать объявление</h1>
+        <nav>
+            <a href="@Url.Action("Index", "CarAds")">Назад к списку</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <form asp-action="Edit" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div>
+                <label asp-for="Make"></label>
+                <input asp-for="Make" />
+                <span asp-validation-for="Make" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Model"></label>
+                <input asp-for="Model" />
+                <span asp-validation-for="Model" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Year"></label>
+                <input asp-for="Year" type="number" />
+                <span asp-validation-for="Year" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Price"></label>
+                <input asp-for="Price" type="number" step="0.01" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Description"></label>
+                <textarea asp-for="Description"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <button type="submit">Обновить</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Все права защищены</p>
+    </footer>
+</body>
+</html>

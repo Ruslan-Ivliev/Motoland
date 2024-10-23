@@ -1,0 +1,112 @@
+﻿/* Global Reset */
+html, body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a1a, #333333); /* Dark gradient background */
+    color: #e0e0e0; /* Light grey text for contrast */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Main Title */
+h1 {
+    color: #ff4757; /* Bright red for emphasis */
+    font-size: 36px; /* Large size for main title */
+    margin-bottom: 10px;
+    text-align: center; /* Centering title */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for 3D effect */
+}
+
+/* Subheading */
+h2 {
+    color: #dcdcdc; /* Light grey color for subheading */
+    margin-bottom: 20px; /* Space below */
+    font-size: 22px; /* Medium size for clarity */
+    text-align: center; /* Centering */
+}
+
+/* Content Box */
+.container {
+    background-color: #2c2c2c; /* Dark background for content box */
+    border-radius: 12px; /* Rounded corners */
+    padding: 30px; /* Inner spacing */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5), 0 15px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
+    width: 90%;
+    max-width: 600px; /* Limit max width */
+    margin-bottom: 20px; /* Space below content box */
+    animation: fadeIn 0.5s ease; /* Fade-in effect */
+}
+
+/* Highlighted Information */
+strong {
+    color: #ff4757; /* Red for strong labels */
+    font-size: 18px; /* Standard size for emphasis */
+}
+
+/* Form Styles */
+form {
+    text-align: center; /* Center buttons */
+}
+
+/* Button Styles */
+button {
+    padding: 15px 35px; /* Padding for button */
+    background-color: #ff4757; /* Bright red button */
+    color: #ffffff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 18px; /* Increased font size */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    margin-right: 10px; /* Space between button and link */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
+}
+
+    button:hover {
+        background-color: #e84118; /* Darker red on hover */
+        transform: translateY(-3px); /* Lift effect */
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7); /* Deeper shadow on hover */
+    }
+
+/* Cancel Link Styles */
+a {
+    color: #74b9ff; /* Bright blue for cancel link */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Increased font size */
+    transition: color 0.3s ease; /* Smooth transition for color */
+    margin-left: 10px; /* Space between button and link */
+}
+
+    a:hover {
+        color: #0984e3; /* Darker blue on hover */
+        text-decoration: underline; /* Underline effect on hover */
+    }
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Slide in from above */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0); /* End position */
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    button {
+        width: 100%; /* Full width on small screens */
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Space below the button */
+    }
+}

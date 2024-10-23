@@ -1,9 +1,15 @@
 ﻿using Motoland.Models;
 using Microsoft.EntityFrameworkCore;
 using Motoland.Services;
+using CarAdApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+// Add services to the container.
+builder.Services.AddControllersWithViews();
 
+// Configure the DB context
+builder.Services.AddDbContext<CarAdDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 // Konfiguracja połączenia z bazą danych (SQL Server lub MySQL)
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -51,7 +57,7 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "user_login",
-    pattern: "{controller=Home}/{action=User_Login}/{id?}");
+    pattern: "{controller=CarAds}/{action=User_Login}/{id?}");
 
 app.MapControllerRoute(
     name: "account_login",
@@ -60,5 +66,13 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "account_register",
     pattern: "{controller=Account}/{action=Register}/{id?}");
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=CarAds}/{action=Create}/{id?}");
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=CarAds}/{action=Edit}/{id?}");
 
 app.Run();

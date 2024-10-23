@@ -25,10 +25,7 @@ namespace Motoland.Controllers
         {
             return View();
         }
-        public IActionResult User_Login()
-        {
-            return View();
-        }
+        
         public IActionResult Index()
         {
             return View();
