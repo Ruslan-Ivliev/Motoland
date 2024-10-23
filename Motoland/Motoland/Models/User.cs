@@ -14,6 +14,6 @@ namespace Motoland.Models
 
         [Required, DataType(DataType.Password)]
         public string Password { get; set; }
-
+        public bool IsAdmin { get; set; } // Flaga, która określa czy użytkownik jest adminem
     }
 }

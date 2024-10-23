@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AFmltn175wA=",
+  "dgSpecHash": "QD9rU6eFKV0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj",
   "expectedPackageFiles": [
@@ -95,12 +95,5 @@
     "C:\\Users\\Lololoshka\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
     "C:\\Users\\Lololoshka\\.nuget\\packages\\zstdsharp.port\\0.8.0\\zstdsharp.port.0.8.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Podczas pobierania danych o lukach w zabezpieczeniach pakietu wystąpił błąd: Nie można załadować indeksu usługi dla źródła https://api.nuget.org/v3/index.json."
-    }
-  ]
+  "logs": []
 }

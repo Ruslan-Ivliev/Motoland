@@ -13,11 +13,6 @@ namespace Motoland.Controllers
             _userService = userService;
         }
 
-        public IActionResult Administrator()
-        {
-            return View();
-        }
-
         // GET: Account/Login
         public IActionResult Login()
         {
@@ -30,8 +25,17 @@ namespace Motoland.Controllers
         {
             if (_userService.ValidateUser(email, password))
             {
-                // W prawdziwej aplikacji dodaj logikę autoryzacji użytkownika (np. tworzenie sesji, tokenów)
-                return RedirectToAction("User_Login", "Home");
+                // Sprawdzamy, czy użytkownik jest administratorem
+                if (_userService.IsAdmin(email))
+                {
+                    // Przekierowanie na panel admina, jeśli użytkownik jest adminem
+                    return RedirectToAction("Administrator", "Account");
+                }
+                else
+                {
+                    // Jeśli użytkownik nie jest adminem, przekierowujemy do strony użytkownika
+                    return RedirectToAction("User_Login", "Home");
+                }
             }
 
             ViewBag.Error = "Nieprawidłowy email lub hasło";
@@ -68,6 +72,12 @@ namespace Motoland.Controllers
             }
 
             return View(user);
+        }
+
+        // Panel administratora - dostępny tylko dla admina
+        public IActionResult Administrator()
+        {
+            return View();
         }
     }
 }

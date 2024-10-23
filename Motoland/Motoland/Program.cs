@@ -4,70 +4,61 @@ using Motoland.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Konfiguracja połączenia z bazą danych (SQL Server lub MySQL)
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); // Dla MySQL użyj .UseMySql()
-
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-
-
-// Rejestracja serwisu IUserService z jego implementacją UserService
-builder.Services.AddScoped<IUserService, UserService>(); // Możesz też użyć AddTransient lub AddSingleton
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Dla MySQL użyj .UseMySql() z odpowiednią wersją serwera MySQL
 
 // Dodanie kontrolerów z widokami (MVC)
 builder.Services.AddControllersWithViews();
 
-
-
+// Rejestracja serwisu IUserService z jego implementacją UserService
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
-void ConfigureServices(IServiceCollection services)
+// Inicjalizacja konta administratora przy starcie aplikacji
+using (var scope = app.Services.CreateScope())
 {
-    services.AddScoped<IUserService, UserService>(); // Example for scoped lifetime
-    // Other service registrations
+    var userService = scope.ServiceProvider.GetRequiredService<IUserService>();
+    userService.CreateAdminIfNotExists(); // Sprawdzenie i utworzenie admina, jeśli nie istnieje
 }
 
-// Configure the HTTP request pipeline.
+// Konfiguracja pipeline'u HTTP
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
 
-
+// Mapowanie tras
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
-    name: "Home",
-        pattern: "{controller=Home}/{action=index}");
+    name: "car_details",
+    pattern: "{controller=Home}/{action=Car_Details}/{id?}");
 
 app.MapControllerRoute(
-    name: "home",
-    pattern: "{controller=Home}/{action=car_datails}"
-    );
-
-app.MapControllerRoute(
-    name: "Home",
+    name: "admin_panel",
     pattern: "{controller=Account}/{action=Administrator}/{id?}");
 
 app.MapControllerRoute(
-    name: "Home",
+    name: "user_login",
     pattern: "{controller=Home}/{action=User_Login}/{id?}");
 
+app.MapControllerRoute(
+    name: "account_login",
+    pattern: "{controller=Account}/{action=Login}/{id?}");
 
 app.MapControllerRoute(
-    name: "account",
-    pattern: "{controller=AccountController}/{action=Login}/{id?}");
+    name: "account_register",
+    pattern: "{controller=Account}/{action=Register}/{id?}");
 
-app.MapControllerRoute(
-    name: "account",
-    pattern: "{controller=AccountController}/{action=Register}/{id?}");
 app.Run();
