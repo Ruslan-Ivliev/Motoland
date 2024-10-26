@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\images\\2013-2018_BMW_X5_(F15)_sDrive25d_wagon_(2018-09-17)_01.jpg",
+      "PackagePath": "staticwebassets\\images\\2013-2018_BMW_X5_(F15)_sDrive25d_wagon_(2018-09-17)_01.jpg"
+    },
+    {
       "Id": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -18,7 +18,7 @@
 
     <main>
         <h2>Форма объявления</h2>
-        <form asp-action="Create" method="post" enctype="multipart/form-data"> <!-- Добавляем атрибут enctype -->
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
             <div>
                 <label asp-for="Make"></label>
                 <input asp-for="Make" />
@@ -46,11 +46,34 @@
             </div>
             <div>
                 <label for="images">Добавить изображения (до 8 штук):</label>
-                <input type="file" id="images" name="images" accept="image/*" multiple /> <!-- Поле для загрузки изображений -->
+                <input type="file" id="images" name="Images" accept="image/*" multiple />
                 <span class="text-danger"></span>
             </div>
+
+            <!-- Превью изображений -->
+            <div id="image-preview"></div>
+
             <button type="submit">Сохранить</button>
         </form>
+
+        <!-- Скрипт для показа превью изображений -->
+        <script>
+            const input = document.getElementById('images');
+            const preview = document.getElementById('image-preview');
+
+            input.addEventListener('change', function() {
+                preview.innerHTML = '';
+                const files = input.files;
+                for (let i = 0; i < files.length; i++) {
+                    const file = files[i];
+                    const img = document.createElement('img');
+                    img.src = URL.createObjectURL(file);
+                    img.width = 100;
+                    preview.appendChild(img);
+                }
+            });
+        </script>
+
     </main>
 
     <footer>

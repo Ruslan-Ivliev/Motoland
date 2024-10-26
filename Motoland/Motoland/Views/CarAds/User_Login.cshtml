@@ -16,10 +16,6 @@
     <!-- Header -->
     <header class="header">
         <h1 class="motoland"><a href="">MotoLand</a></h1>
-        <div class="auth-buttons">
-            <a href="Account/Login">Zaloguj się</a>
-            <a href="Account/Register">Zarejestruj się</a>
-        </div>
     </header>
 
     <!-- Main Section -->
@@ -67,32 +63,53 @@
             <h2>Lista ogłoszeń</h2>
 
             <!-- Button to Add Advertisement -->
-            <div>
-            <a href="@Url.Action("Create", "CarAds")" class="add-ad-button">Добавить новое объявление о машине</a>
-            </div>
-        
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <!-- Поля формы -->
+            <button class="auth-buttons" type="submit">Создать</button>
+        </form>
 
-                        <div class="car-ads">
-                @if (Model != null )
+
+        <h2>Список объявлений</h2>
+        <div class="car-ads">
+        @if (Model != null && Model.Count > 0)
+        {
+            <ul>
+                @foreach (var ad in Model)
                 {
-                    foreach (var ad in Model)
-                    {
-                        <div class="car-ad">
-                            <h3>@ad.Make @ad.Model (@ad.Year)</h3>
-                            <p><strong>Cena:</strong> @ad.Price.ToString("C")</p>
-                            <p><strong>Opis:</strong> @ad.Description</p>
-                            <div class="ad-actions">
-                                <a href="@Url.Action("Edit", "CarAds", new { id = ad.Id })">Edytuj</a>
-                                <a href="@Url.Action("Delete", "CarAds", new { id = ad.Id })">Usuń</a>
-                            </div>
+                    <li>
+                        <h3>@ad.Make @ad.Model (@ad.Year)</h3>
+                        <p><strong>Цена:</strong> @ad.Price.ToString("C")</p>
+                        <p><strong>Описание:</strong> @ad.Description</p>
+                        <div>
+                            @if (!string.IsNullOrEmpty(ad.ImagePaths))
+                            {
+                                var imagePathList = ad.ImagePaths.Split(",");
+                                foreach (var imagePath in imagePathList)
+                                {
+                                    <img src="@imagePath" alt="Car image" style="max-width: 200px; height: auto;" />
+                                }
+                            }
                         </div>
-                    }
+                        <div class="ad-actions">
+                            
+                        
+                        <!-- Кнопка Edit -->
+                        <a href="@Url.Action("Edit", "CarAds", new { id = ad.Id })">Edytuj</a>
+
+                        <!-- Кнопка Delete -->
+                        <form asp-action="Delete" asp-route-id="@ad.Id" method="post" style="display:inline;">
+                            <a href="@Url.Action("Delete", "CarAds", new { id = ad.Id })">Usuń</a>
+                            </form>
+                        </div>
+                    </li>
                 }
-                else
-                {
-                    <p>Brak dostępnych ogłoszeń.</p>
-                }
-            </div>
+            </ul>
+        }
+        else
+        {
+            <p>Нет доступных объявлений.</p>
+        }
+        </div>
 
     </main>
 

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Motoland.Models
 {
@@ -20,6 +21,10 @@ namespace Motoland.Models
 
         public string? Description { get; set; }
 
-        
+       
+        public string? ImagePaths { get; set; } // Для хранения путей к изображениям
+
+        [NotMapped]
+        public List<IFormFile>? Images { get; set; }
     }
 }

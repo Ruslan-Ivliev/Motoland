@@ -13,33 +13,61 @@ namespace CarAdApp.Controllers
         {
             _context = context;
         }
-        
-       
+
+
         // GET: CarAds
+
+        [HttpGet]
         public async Task<IActionResult> User_Login()
         {
-            return View(await _context.CarAds.ToListAsync());
+            var carAds = await _context.CarAds.ToListAsync(); // Получаем все объявления из базы данных
+            return View(carAds); // Передаем их в представление
         }
+
 
         // GET: CarAds/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: CarAds/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Make,Model,Year,Price,Description")] CarAd carAd)
+        public async Task<IActionResult> Create([Bind("Id,Make,Model,Year,Price,Description,Images")] CarAd carAd)
         {
             if (ModelState.IsValid)
             {
+                // Проверяем, есть ли загруженные изображения
+                if (carAd.Images != null && carAd.Images.Count > 0)
+                {
+                    var imagePaths = new List<string>();
+
+                    foreach (var image in carAd.Images)
+                    {
+                        if (image.Length > 0)
+                        {
+                            // Путь для сохранения файлов
+                            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", image.FileName);
+
+                            // Сохраняем файл
+                            using (var stream = new FileStream(filePath, FileMode.Create))
+                            {
+                                await image.CopyToAsync(stream);
+                            }
+
+                            // Добавляем путь к изображению
+                            imagePaths.Add("/images/" + image.FileName);
+                        }
+                    }
+
+                    // Сохраняем пути к изображениям в виде строки, разделенной запятыми
+                    carAd.ImagePaths = string.Join(",", imagePaths);
+                }
+
+                // Сохраняем данные объявления
                 _context.Add(carAd);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(carAd);
         }
+
+
 
         // GET: CarAds/Edit/5
         [HttpGet("/CarAds/Edit/{id?}")]

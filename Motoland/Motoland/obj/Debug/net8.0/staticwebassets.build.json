@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X6FNg9Fvbi07oXS8mE62YfzLrQ9TNyDm+lkvCECp5+I=",
+  "Hash": "gqhjcFrGglV3qZM6k+q9nEg/G7nT/v3bO73q5cy0Z/0=",
   "Source": "Motoland",
   "BasePath": "_content/Motoland",
   "Mode": "Default",
@@ -281,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\images\\2013-2018_BMW_X5_(F15)_sDrive25d_wagon_(2018-09-17)_01.jpg",
+      "SourceId": "Motoland",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "BasePath": "_content/Motoland",
+      "RelativePath": "images/2013-2018_BMW_X5_(F15)_sDrive25d_wagon_(2018-09-17)_01.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2013-2018_BMW_X5_(F15)_sDrive25d_wagon_(2018-09-17)_01.jpg"
     },
     {
       "Identity": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\js\\site.js",
