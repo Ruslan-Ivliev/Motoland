@@ -60,6 +60,10 @@ app.MapControllerRoute(
     pattern: "{controller=CarAds}/{action=User_Login}/{id?}");
 
 app.MapControllerRoute(
+    name: "car_add",
+    pattern: "{controller=CarAds}/{action=Add_car}/{id?}");
+
+app.MapControllerRoute(
     name: "account_login",
     pattern: "{controller=Account}/{action=Login}/{id?}");
 

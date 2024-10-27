@@ -1,14 +1,12 @@
 ﻿@using System.Linq
 
-
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MotoLand</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
+
     <link rel="stylesheet" href="~/css/User_Login.css">
 </head>
 <body>
@@ -20,7 +18,7 @@
 
     <!-- Main Section -->
     <main class="main">
-        <div class="container" />
+        <div class="container">
             <h1>Znajdź swoje wymarzone auto</h1>
 
             <!-- Filter Section -->
@@ -54,63 +52,16 @@
                         </div>
                     </div>
                     <div>
-                        <button type="submit">Szukaj</button>
+                        <button type="submit" class="btn-danger">Szukaj</button>
                     </div>
                 </form>
-        
             </section>
-        
-            <h2>Lista ogłoszeń</h2>
 
             <!-- Button to Add Advertisement -->
-        <form asp-action="Create" method="post" enctype="multipart/form-data">
-            <!-- Поля формы -->
-            <button class="auth-buttons" type="submit">Создать</button>
-        </form>
+           
 
-
-        <h2>Список объявлений</h2>
-        <div class="car-ads">
-        @if (Model != null && Model.Count > 0)
-        {
-            <ul>
-                @foreach (var ad in Model)
-                {
-                    <li>
-                        <h3>@ad.Make @ad.Model (@ad.Year)</h3>
-                        <p><strong>Цена:</strong> @ad.Price.ToString("C")</p>
-                        <p><strong>Описание:</strong> @ad.Description</p>
-                        <div>
-                            @if (!string.IsNullOrEmpty(ad.ImagePaths))
-                            {
-                                var imagePathList = ad.ImagePaths.Split(",");
-                                foreach (var imagePath in imagePathList)
-                                {
-                                    <img src="@imagePath" alt="Car image" style="max-width: 200px; height: auto;" />
-                                }
-                            }
-                        </div>
-                        <div class="ad-actions">
-                            
-                        
-                        <!-- Кнопка Edit -->
-                        <a href="@Url.Action("Edit", "CarAds", new { id = ad.Id })">Edytuj</a>
-
-                        <!-- Кнопка Delete -->
-                        <form asp-action="Delete" asp-route-id="@ad.Id" method="post" style="display:inline;">
-                            <a href="@Url.Action("Delete", "CarAds", new { id = ad.Id })">Usuń</a>
-                            </form>
-                        </div>
-                    </li>
-                }
-            </ul>
-        }
-        else
-        {
-            <p>Нет доступных объявлений.</p>
-        }
-        </div>
-
+            <a href="@Url.Action("Add_car", "CarAds")" class="btn-edit bg-danger">Twoje Ogloszenia</a>
+            </div>
     </main>
 
     <!-- Footer -->

@@ -74,7 +74,7 @@
                     {
                         <div class="car-ad">
                             <h3>@ad.Make @ad.Model (@ad.Year)</h3>
-                            <p><strong>Cena:</strong> @ad.Price.ToString("C")</p>
+                            <p><strong>Cena:</strong> @ad.Price.ToString("C", new System.Globalization.CultureInfo("pl-PL"))</p>
                             <p><strong>Opis:</strong> @ad.Description</p>
                             <div class="ad-actions">
                                 <a href="@Url.Action("Edit", "CarAds", new { id = ad.Id })">Edytuj</a>

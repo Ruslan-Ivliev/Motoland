@@ -14,11 +14,14 @@ namespace CarAdApp.Controllers
             _context = context;
         }
 
-
+        public async Task<IActionResult> User_Login()
+        {
+            return View();
+        }
         // GET: CarAds
 
         [HttpGet]
-        public async Task<IActionResult> User_Login()
+        public async Task<IActionResult> Add_car()
         {
             var carAds = await _context.CarAds.ToListAsync(); // Получаем все объявления из базы данных
             return View(carAds); // Передаем их в представление
@@ -67,8 +70,7 @@ namespace CarAdApp.Controllers
             return View(carAd);
         }
 
-
-
+        
         // GET: CarAds/Edit/5
         [HttpGet("/CarAds/Edit/{id?}")]
         public async Task<IActionResult> Edit(int? id)

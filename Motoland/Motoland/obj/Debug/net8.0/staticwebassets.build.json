@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gqhjcFrGglV3qZM6k+q9nEg/G7nT/v3bO73q5cy0Z/0=",
+  "Hash": "FNtS43YHHNngC/TK79NxHCBFPgT62sIMjpY7z2o2Qyg=",
   "Source": "Motoland",
   "BasePath": "_content/Motoland",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Motoland.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Add_my_car.css",
+      "SourceId": "Motoland",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "BasePath": "_content/Motoland",
+      "RelativePath": "css/Add_my_car.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Add_my_car.css"
     },
     {
       "Identity": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Admin.css",
@@ -300,6 +319,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\2013-2018_BMW_X5_(F15)_sDrive25d_wagon_(2018-09-17)_01.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\images\\audi-rs7-sportback-c8-c709724072020100440_2.jpg",
+      "SourceId": "Motoland",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\",
+      "BasePath": "_content/Motoland",
+      "RelativePath": "images/audi-rs7-sportback-c8-c709724072020100440_2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\audi-rs7-sportback-c8-c709724072020100440_2.jpg"
     },
     {
       "Identity": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\js\\site.js",

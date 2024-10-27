@@ -1,0 +1,127 @@
+﻿:root {
+    --color-background: #1e1e1e;
+    --color-text: #e0e0e0;
+    --color-muted: #a0a0a0;
+    --color-header: #2c2c2c;
+    --color-card: #3a3a3a;
+    --color-button: #dc3545;
+    --color-button-hover: #c82333;
+    --color-success: #28a745;
+    --border-radius: 5px;
+    --box-shadow-light: 0 2px 5px rgba(0, 0, 0, 0.5);
+    --box-shadow-heavy: 0 5px 15px rgba(0, 0, 0, 0.5);
+    --transition: 0.3s ease;
+}
+
+/* Global Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styles */
+body {
+    background: var(--color-background);
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Add Ad Form */
+.add-ad-form {
+    margin-bottom: 20px;
+}
+
+    .add-ad-form .btn {
+        padding: 12px 20px;
+        background-color: var(--color-button);
+        color: #ffffff;
+        border: none;
+        border-radius: var(--border-radius);
+        transition: background-color var(--transition), transform var(--transition);
+    }
+
+        .add-ad-form .btn:hover {
+            background-color: var(--color-button-hover);
+            transform: translateY(-3px);
+        }
+
+/* Car Ads Section */
+.car-ads {
+    padding: 20px;
+}
+
+.ad-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ad-card {
+    background-color: var(--color-card);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow-light);
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+    .ad-card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--box-shadow-heavy);
+    }
+
+.ad-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--color-text);
+}
+
+.ad-price,
+.ad-description {
+    color: var(--color-muted);
+    margin: 5px 0;
+}
+
+.ad-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.ad-image {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+    border-radius: var(--border-radius);
+}
+
+.ad-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn-edit,
+.btn-delete {
+    padding: 8px 15px;
+    border: none;
+    border-radius: var(--border-radius);
+    color: white;
+    background-color: var(--color-button);
+    transition: background-color var(--transition), transform var(--transition);
+}
+
+    .btn-edit:hover,
+    .btn-delete:hover {
+        background-color: var(--color-button-hover);
+        transform: translateY(-3px);
+    }
+
+.btn-delete {
+    background-color: #dc3545; /* Możesz dostosować kolor dla przycisku Usuń */
+}

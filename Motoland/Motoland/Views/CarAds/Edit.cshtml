@@ -12,12 +12,12 @@
     <header>
         <h1>Редактировать объявление</h1>
         <nav>
-            <a href="@Url.Action("Index", "CarAds")">Назад к списку</a>
+            <a href="@Url.Action("Add_car", "CarAds")">Назад к списку</a>
         </nav>
     </header>
 
     <main>
-        
+
         <form asp-action="Edit" method="post">
             <input type="hidden" asp-for="Id" />
             <div>

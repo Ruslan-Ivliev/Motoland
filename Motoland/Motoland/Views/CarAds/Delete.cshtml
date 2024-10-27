@@ -16,14 +16,14 @@
         <strong>Marka:</strong> @Model.Make<br />
         <strong>Model:</strong> @Model.Model<br />
         <strong>Rok:</strong> @Model.Year<br />
-        <strong>Cena:</strong> @Model.Price.ToString("C")<br />
+        <strong>Cena:</strong> @Model.Price.ToString("C", new System.Globalization.CultureInfo("pl-PL"))<br />
         <strong>Opis:</strong> @Model.Description<br />
     </div>
 
     <form asp-action="Delete" method="post">
         <input type="hidden" name="id" value="@Model.Id" />
         <button type="submit">Usuń</button>
-        <a href="@Url.Action("User_Login")">Anuluj</a>
+        <a href="@Url.Action("Add_car")" class="btn bg-info">Anuluj</a>
     </form>
 
     <footer>

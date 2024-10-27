@@ -1,38 +1,75 @@
-﻿/* Global Reset */
-html, body, h1, h2, h3, p, a {
+﻿:root {
+    /* Цветовые переменные */
+    --color-background: #1e1e1e;
+    --color-text: #e0e0e0;
+    --color-muted: #a0a0a0;
+    --color-header: #2c2c2c;
+    --color-card: #3a3a3a;
+    --color-button: #dc3545;
+    --color-button-hover: #c82333;
+    --color-link: #dc3545;
+    --color-link-hover: #c82333;
+    --color-success: #28a745;
+    /* Другие переменные */
+    --border-radius: 5px;
+    --box-shadow-light: 0 2px 5px rgba(0, 0, 0, 0.5);
+    --box-shadow-heavy: 0 5px 15px rgba(0, 0, 0, 0.5);
+    --transition: 0.3s ease;
+}
+
+/* Global Reset */
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
 
+/* Body Styles */
 body {
-    background: #1e1e1e; /* Dark background */
-    color: #e0e0e0; /* Light text color */
+    background: var(--color-background);
+    color: var(--color-text);
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure full height */
-    overflow-x: hidden; /* Prevent horizontal overflow */
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
-/* Header Styles */
+/* Flex and Grid Utilities */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #2c2c2c; /* Darker header */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    z-index: 1; /* Ensure header is above background */
-    animation: fadeIn 0.5s ease; /* Fade-in effect */
+    background-color: var(--color-header);
+    box-shadow: var(--box-shadow-light);
+    z-index: 1;
+    animation: fadeIn 0.5s ease;
 }
 
     .header .motoland a {
-        color: #dc3545; /* Bootstrap danger color */
+        color: var(--color-button);
         font-size: 36px;
         text-decoration: none;
         font-weight: bold;
     }
 
+/* Auth Buttons */
 .auth-buttons {
     display: flex;
     gap: 15px;
@@ -43,14 +80,14 @@ body {
         font-weight: 500;
         text-decoration: none;
         padding: 10px 20px;
-        background-color: #dc3545; /* Red button color */
-        border-radius: 5px;
-        transition: background-color 0.3s ease, transform 0.3s; /* Added transform */
+        background-color: var(--color-button);
+        border-radius: var(--border-radius);
+        transition: background-color var(--transition), transform var(--transition);
     }
 
         .auth-buttons a:hover {
-            background-color: #c82333; /* Darker red on hover */
-            transform: translateY(-3px); /* Lift effect */
+            background-color: var(--color-button-hover);
+            transform: translateY(-3px);
         }
 
 /* Main Section */
@@ -60,110 +97,105 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    animation: slideIn 0.5s ease; /* Slide-in effect */
+    animation: slideIn 0.5s ease;
 }
 
 .container {
     width: 90%;
     max-width: 1200px;
-    background-color: #2c2c2c; /* Darker container */
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--color-header);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow-light);
     padding: 20px;
 }
 
     .container h1 {
-        color: #dc3545; /* Bootstrap danger color */
+        color: var(--color-button);
         text-align: center;
         margin-bottom: 20px;
-        animation: fadeIn 0.5s ease; /* Fade-in effect */
+        animation: fadeIn 0.5s ease;
     }
 
 /* Filter Section */
 .filters {
-    background-color: #3a3a3a; /* Filter section background */
+    background-color: var(--color-card);
     padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow-light);
     margin-bottom: 20px;
-    animation: fadeIn 0.5s ease; /* Fade-in effect */
+    animation: fadeIn 0.5s ease;
 }
 
     .filters h2 {
         margin-bottom: 20px;
         font-size: 24px;
-        color: #e0e0e0; /* Light text */
+        color: var(--color-text);
     }
 
-.filter-group {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 15px;
+.filter-group label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: var(--color-text);
 }
 
-    .filter-group label {
-        font-weight: 600;
-        margin-bottom: 8px;
-        display: block;
-        color: #e0e0e0; /* Light text */
+.filter-group input,
+.filter-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #495057;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    background-color: #4a4a4a;
+    color: var(--color-text);
+    transition: border-color var(--transition);
+}
+
+    .filter-group input:focus,
+    .filter-group select:focus {
+        border-color: var(--color-button);
+        outline: none;
     }
 
-    .filter-group input,
-    .filter-group select {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #495057; /* Input border color */
-        border-radius: 5px;
-        font-size: 16px;
-        background-color: #4a4a4a; /* Input background */
-        color: #e0e0e0; /* Light text */
-        transition: border-color 0.3s ease; /* Transition for border */
+.filter-group button {
+    padding: 12px 20px;
+    background-color: var(--color-button);
+    color: #fff;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color var(--transition), transform var(--transition);
+    grid-column: span 2;
+}
+
+    .filter-group button:hover {
+        background-color: var(--color-button-hover);
+        transform: translateY(-3px);
     }
-
-        .filter-group input:focus,
-        .filter-group select:focus {
-            border-color: #dc3545; /* Change border color on focus */
-            outline: none; /* Remove outline */
-        }
-
-    .filter-group button {
-        padding: 12px 20px;
-        background-color: #dc3545; /* Red button color */
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-        transition: background-color 0.3s, transform 0.3s; /* Added transform */
-        grid-column: span 2; /* Span across two columns */
-    }
-
-        .filter-group button:hover {
-            background-color: #c82333; /* Darker red on hover */
-            transform: translateY(-3px); /* Lift effect */
-        }
 
 /* Car List (Ads Section) */
 .car-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 25px;
-    animation: fadeIn 0.5s ease; /* Fade-in effect */
+    animation: fadeIn 0.5s ease;
 }
 
+/* Card Styles */
 .car-card {
-    background-color: #3a3a3a; /* Darker card background */
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: var(--color-card);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow-light);
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none; /* No underline for links */
-    position: relative; /* For pseudo-elements */
+    transition: transform var(--transition), box-shadow var(--transition);
+    text-decoration: none;
+    position: relative;
 }
 
     .car-card:hover {
         transform: translateY(-5px);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: var(--box-shadow-heavy);
     }
 
 .car-image {
@@ -176,11 +208,11 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transition: transform 0.3s ease;
+        transition: transform var(--transition);
     }
 
 .car-card:hover .car-image img {
-    transform: scale(1.1); /* Slight zoom on hover */
+    transform: scale(1.1);
 }
 
 .car-details {
@@ -191,45 +223,116 @@ body {
     .car-details h3 {
         font-size: 18px;
         margin-bottom: 10px;
-        color: #e0e0e0; /* Light text */
-        transition: color 0.3s; /* Color transition */
+        color: var(--color-text);
+        transition: color var(--transition);
     }
 
 .car-card:hover .car-details h3 {
-    color: #dc3545; /* Change color on hover */
+    color: var(--color-button);
 }
 
 .car-details p {
     margin: 5px 0;
-    color: #a0a0a0; /* Muted text color */
+    color: var(--color-muted);
 }
 
 .price {
     font-size: 18px;
     font-weight: bold;
-    color: #28a745; /* Bootstrap success color */
+    color: var(--color-success);
 }
 
 /* Footer Styles */
 .footer {
-    background-color: #2c2c2c; /* Dark footer background */
+    background-color: var(--color-header);
     text-align: center;
     padding: 15px 0;
-    color: #e0e0e0; /* Light text */
+    color: var(--color-text);
     font-size: 16px;
-    border-top: 1px solid #495057; /* Footer border */
-    animation: fadeIn 0.5s ease; /* Fade-in effect */
+    border-top: 1px solid #495057;
+    animation: fadeIn 0.5s ease;
 }
 
     .footer a {
-        color: #dc3545; /* Link color */
+        color: var(--color-link);
         text-decoration: none;
-        transition: color 0.3s; /* Color transition */
+        transition: color var(--transition);
     }
 
         .footer a:hover {
-            color: #c82333; /* Darker shade on hover */
-            text-decoration: underline; /* Underline on hover */
+            color: var(--color-link-hover);
+            text-decoration: underline;
+        }
+
+/* Add Advertisement Button */
+.add-ad-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: var(--color-button);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    transition: background-color var(--transition), transform var(--transition);
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .add-ad-button:hover {
+        background-color: var(--color-button-hover);
+        transform: translateY(-3px);
+    }
+
+/* Ad Listings Section */
+.car-ad {
+    background-color: var(--color-card);
+    border-radius: var(--border-radius);
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: var(--box-shadow-light);
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+    .car-ad:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--box-shadow-heavy);
+    }
+
+    .car-ad h3 {
+        color: var(--color-text);
+        margin-bottom: 10px;
+    }
+
+    .car-ad p {
+        color: var(--color-muted);
+        margin: 5px 0;
+    }
+
+/* Action Buttons for Edit and Delete */
+.ad-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+    .ad-actions a,
+    .ad-actions button {
+        background-color: var(--color-button);
+        color: white;
+        text-decoration: none;
+        border-radius: var(--border-radius);
+        padding: 8px 15px;
+        transition: background-color var(--transition), transform var(--transition);
+        cursor: pointer;
+        border: none;
+        display: inline-flex;
+        align-items: center;
+    }
+
+        .ad-actions a:hover,
+        .ad-actions button:hover {
+            background-color: var(--color-button-hover) ;
+            transform: translateY(-3px);
         }
 
 /* Animations */
@@ -253,137 +356,4 @@ body {
         transform: translateY(0);
         opacity: 1;
     }
-}
-/* Ad Listings Section */
-.car-ads {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #2c2c2c; /* Dark background for the ad listings */
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-    .car-ads h2 {
-        color: #dc3545; /* Bootstrap danger color for the section title */
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-.car-ad {
-    background-color: #3a3a3a; /* Darker background for each ad */
-    border-radius: 10px;
-    padding: 15px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for hover effect */
-}
-
-    .car-ad:hover {
-        transform: translateY(-5px); /* Lift effect on hover */
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    }
-
-    .car-ad h3 {
-        color: #e0e0e0; /* Light text for the ad title */
-        margin-bottom: 10px;
-    }
-
-    .car-ad p {
-        color: #a0a0a0; /* Muted text color for details */
-        margin: 5px 0;
-    }
-
-.ad-actions {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
-    .ad-actions a {
-        color: #dc3545; /* Red color for action links */
-        text-decoration: none;
-        padding: 8px 12px;
-        background-color: #4a4a4a; /* Darker background for action buttons */
-        border-radius: 5px;
-        transition: background-color 0.3s ease; /* Transition for background */
-    }
-
-        .ad-actions a:hover {
-            background-color: #dc3545; /* Red color on hover */
-            color: #fff; /* White text on hover */
-        }
-/* Add Advertisement Button */
-.add-ad-button {
-    display: inline-block; /* Make the link behave like a button */
-    padding: 12px 20px; /* Padding for the button */
-    background-color: #dc3545; /* Bootstrap danger color */
-    color: #ffffff; /* White text color */
-    text-decoration: none; /* Remove underline */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
-    margin-top: 20px; /* Space above the button */
-    text-align: center; /* Center text */
-}
-
-    .add-ad-button:hover {
-        background-color: #c82333; /* Darker shade on hover */
-        transform: translateY(-3px); /* Lift effect on hover */
-    }
-    .car-ad {
-    background-color: #3a3a3a;
-    border-radius: 10px;
-    padding: 15px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.car-ad:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
-
-.car-ad h3 {
-    color: #e0e0e0;
-    margin-bottom: 10px;
-}
-
-.car-ad p {
-    color: #a0a0a0;
-    margin: 5px 0;
-}
-
-.ad-actions {
-    display: flex;
-    justify-content: flex-start; /* Изменено на flex-start для выравнивания кнопок по левому краю */
-    gap: 10px; /* Добавляем промежуток между кнопками */
-    margin-top: 15px;
-}
-
-/* Стили для кнопок действий (Edit и Delete) */
-.ad-actions a,
-.ad-actions button {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.3s;
-    cursor: pointer;
-    border: none;
-}
-
-.ad-actions a {
-    background-color: #007bff; /* Синий цвет для кнопки Edit */
-}
-
-.ad-actions a:hover {
-    background-color: #0056b3; /* Темнее синий при наведении */
-}
-
-.ad-actions button {
-    background-color: #dc3545; /* Красный цвет для кнопки Delete */
-}
-
-.ad-actions button:hover {
-    background-color: #c82333; /* Темнее красный при наведении */
 }

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Motoland.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Add_my_car.css",
+      "PackagePath": "staticwebassets\\css\\Add_my_car.css"
+    },
+    {
       "Id": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\css\\Admin.css",
       "PackagePath": "staticwebassets\\css\\Admin.css"
     },
@@ -55,6 +59,10 @@
     {
       "Id": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\images\\2013-2018_BMW_X5_(F15)_sDrive25d_wagon_(2018-09-17)_01.jpg",
       "PackagePath": "staticwebassets\\images\\2013-2018_BMW_X5_(F15)_sDrive25d_wagon_(2018-09-17)_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\images\\audi-rs7-sportback-c8-c709724072020100440_2.jpg",
+      "PackagePath": "staticwebassets\\images\\audi-rs7-sportback-c8-c709724072020100440_2.jpg"
     },
     {
       "Id": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\wwwroot\\js\\site.js",
