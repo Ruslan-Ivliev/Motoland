@@ -9,75 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Motoland
 build_property.RootNamespace = Motoland
-build_property.ProjectDir = C:\Users\igrov\Documents\GitHub\Motoland\Motoland\Motoland\
+build_property.ProjectDir = C:\Users\Lololoshka\Documents\GitHub\Motoland\Motoland\Motoland\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\igrov\Documents\GitHub\Motoland\Motoland\Motoland
+build_property.MSBuildProjectDirectory = C:\Users\Lololoshka\Documents\GitHub\Motoland\Motoland\Motoland
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/Account/Administrator.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/Account/Administrator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZG1pbmlzdHJhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/Account/Login.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/Account/Register.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/CarAds/Add_car.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/CarAds/Add_car.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQWRzXEFkZF9jYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/CarAds/Create.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/CarAds/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQWRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/CarAds/Delete.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/CarAds/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQWRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/CarAds/Edit.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/CarAds/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQWRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/CarAds/User_Login.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/CarAds/User_Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQWRzXFVzZXJfTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/Home/car_datails.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/Home/car_datails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYXJfZGF0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/Home/Index.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/Home/Privacy.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/Shared/Error.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/_ViewImports.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/_ViewStart.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/igrov/Documents/GitHub/Motoland/Motoland/Motoland/Views/Shared/_Layout.cshtml]
+[C:/Users/Lololoshka/Documents/GitHub/Motoland/Motoland/Motoland/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ksx7u20dko

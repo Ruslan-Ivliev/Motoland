@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj": {}
+    "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj": {
+    "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj",
+        "projectUniqueName": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj",
         "projectName": "Motoland",
-        "projectPath": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj",
-        "packagesPath": "C:\\Users\\igrov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igrov\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\obj\\",
+        "projectPath": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\Motoland.csproj",
+        "packagesPath": "C:\\Users\\Lololoshka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lololoshka\\Documents\\GitHub\\Motoland\\Motoland\\Motoland\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\igrov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lololoshka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -58,7 +62,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -68,11 +72,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "MySql.Data": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.1.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",

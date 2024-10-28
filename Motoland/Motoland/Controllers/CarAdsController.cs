@@ -14,11 +14,16 @@ namespace CarAdApp.Controllers
             _context = context;
         }
 
+      
+        // GET: CarAds
+
+        [HttpGet]
         public async Task<IActionResult> User_Login()
         {
-            return View();
+            var carAds = await _context.CarAds.ToListAsync(); // Получаем все объявления из базы данных
+            return View(carAds); // Передаем их в представление
         }
-        // GET: CarAds
+
 
         [HttpGet]
         public async Task<IActionResult> Add_car()

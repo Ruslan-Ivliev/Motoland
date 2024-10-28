@@ -6,7 +6,6 @@ using CarAdApp.Data;
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
 // Configure the DB context
 builder.Services.AddDbContext<CarAdDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
